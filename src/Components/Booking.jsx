@@ -35,6 +35,7 @@ const Booking = () => {
                   Your home of Comfort & Pleasure.
                 </h1>
                 <p>HOTEL & RESORT!</p>
+                <button className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
@@ -47,6 +48,7 @@ const Booking = () => {
                   Comfy & Luxurious Rooms
                 </h1>
                 <p>YOUR ROOM YOUR STAY!</p>
+                <button className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
@@ -59,22 +61,10 @@ const Booking = () => {
                   Enjoy every second.
                 </h1>
                 <p>ENJOY WITH US!</p>
+                <button className="bookBtn">Book Now </button>
               </div>
             </div>
           </div>
-        </div>
-        <div
-          className="booking d-flex  justify-content-center w-100"
-          style={{
-            zIndex: "30000",
-            position: "absolute",
-            top: "450px",
-            color: "white",
-          }}
-        >
-          <button className="bookBtn">
-            Book Now{" "}
-          </button>
         </div>
       </div>
       <div className="RBooking">

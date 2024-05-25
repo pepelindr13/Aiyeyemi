@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg px-5">
+    <div className="px-3">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex justify-content-space-between">
           <a className="navbar-brand fw-bolder text-light" href="#">
             AIYEYEMI <br />
@@ -23,7 +24,8 @@ const Navbar = () => {
             </div>
         </div>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav w-100 d-flex">
+          <ul className="navbar-nav w-100 d-flex text-end">
+            <Link style={{textDecoration:"none"}} to={'/'}>
             <li className="nav-item">
               <a
               id="navLink"
@@ -34,11 +36,14 @@ const Navbar = () => {
                 HOME
               </a>
             </li>
+            </Link>
+            <Link style={{textDecoration:"none"}} to={'/rooms'}>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 BOOKING
               </a>
             </li>
+            </Link>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 ROOMS
