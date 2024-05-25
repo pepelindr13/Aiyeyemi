@@ -20,7 +20,7 @@ import Star from '../assets/Images/star.png'
 const Hero = () => {
   return (
     <div>
-      <div style={{ position: "relative", height: "80vh" }}>
+      <div className="box">
         <div
           style={{
             position: "absolute",

@@ -2,6 +2,11 @@
   font-family: "Playfair Display", serif;
 }
 
+.box {
+  position: relative;
+  height: 80vh;
+}
+
 .firstCaro img {
   height: 80vh;
   filter: brightness(30%);
@@ -92,13 +97,17 @@ position: relative;
 
 
 
-#cap,#cap2,#cap3 {
+/* #cap,#cap2,#cap3 {
 position: absolute;
 bottom: 150px;
 /* width: 600px; */
 /* text-align: start; */
 /* text-transform: uppercase; */
 /* color: wheat; */
+/* }  */
+
+.carousel-caption {
+  transform: translateY(-100px);
 }
 
 
@@ -459,11 +468,21 @@ outline: none;
   font-weight: 18px;
 }
 @media(max-width:475px) {
+  .firstCaro img {
+    height: 0vh;
+    filter: brightness(30%);
+  }
+
+  .box {
+    position: relative;
+    height: 80vh;
+  }
+  
 
   .carousel-caption h1 {
     font-size: 20px;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.87)
   }
   
 .about {
@@ -472,8 +491,8 @@ outline: none;
 }
 
 .serviceDiv {
-  grid-template-columns: 1fr;
-  padding: 0;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
 }
 
 .rightAbout {
@@ -529,20 +548,6 @@ outline: none;
   margin-top: 110px;
   padding: 50px 10px;
 }
-
-.firstCaro img {
-  height: 100vh;
-  filter: brightness(30%);
-}
-
-#cap,#cap2,#cap3 {
-  position: absolute;
-  bottom: 220px;
-  /* width: 600px; */
-  /* text-align: start; */
-  /* text-transform: uppercase; */
-  /* color: wheat; */
-  }
 
   .rse {
     border-bottom: none;
