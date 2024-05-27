@@ -6,10 +6,12 @@ const Navbar = () => {
     <div className="px-3">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex justify-content-space-between">
-          <a className="navbar-brand fw-bolder text-light" href="#">
+        <div className="navbar-brand">
+        <a className="fw-bolder" href="#">
             AIYEYEMI <br />
             PALACE
           </a>
+        </div>
             <div className="navbar-toggler hamburger text-light"
                         type="button"
                         data-bs-toggle="collapse"
@@ -40,15 +42,10 @@ const Navbar = () => {
             <Link style={{textDecoration:"none"}} to={'/rooms'}>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
-                BOOKING
-              </a>
-            </li>
-            </Link>
-            <li className="nav-item">
-              <a className="nav-link fw-bold" href="#">
                 ROOMS
               </a>
             </li>
+            </Link>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 ABOUT

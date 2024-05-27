@@ -19,7 +19,19 @@ import Room3 from "../assets/Images/room3.jpg";
 import Star from "../assets/Images/star.png";
 import Corridor from "../assets/Images/corridor.jpg";
 import Restaurant from '../assets/Images/restaurant.svg';
+import Swim from '../assets/Images/swim.svg';
+import Exq from '../assets/Images/exq.svg';
+import Games from '../assets/Images/games.png'
+import Footer from "./Footer";
+import Email from "./Email";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 const Hero = () => {
+  let navigate = useNavigate();
+  function nav(){
+    navigate('/booking')
+  }
   return (
     <div>
       <div className="box">
@@ -66,7 +78,7 @@ const Hero = () => {
                   care.
                 </h1>
                 <p>YOUR ROOM YOUR STAY!</p>
-                <button className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
@@ -80,41 +92,16 @@ const Hero = () => {
                   is designed to exceed your expectations.
                 </h1>
                 <p>ENJOY WITH US!</p>
+                <Link to={'/booking'}>
                 <button className="bookBtn">Book Now </button>
+                </Link>
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="RBooking">
-        <form action="">
-          <div className="w-100">
-            <label htmlFor="">Check In Date</label> <br />
-            <input type="date" />
-          </div>
-          <div className="w-100">
-            <label htmlFor="">Check Out Date</label>
-            <input type="date" />
-          </div>
-          <div className="w-100">
-            <label htmlFor="">Adults</label>
-            <select name="" id="">
-              <option value="">Adult 1</option>
-              <option value="">Adult 2</option>
-              <option value="">Adult 3</option>
-            </select>
-          </div>
-          <div className="w-100">
-            <label htmlFor="">Children</label>
-            <select name="" id="">
-              <option value="">Children 1</option>
-              <option value="">Children 2</option>
-              <option value="">Children 3</option>
-            </select>
-          </div>
-          <button className="bootBtn">Book Now</button>
-        </form>
-      </div>
+        <Email/>
       <div className="featured text-center ">
         <h6 style={{ lineHeight: "15px" }}>
           <div className="fs-1 ro">Rooms</div>
@@ -124,7 +111,7 @@ const Hero = () => {
           Feat<span className="rse">ured Roo</span>ms
         </h1>
         <div className="rooms">
-          <div className="roomFlex shadow-sm bg-light">
+          <div className="roomFlex shadow-sm">
             <div className="p-5">
               <h2>Royal Room</h2>
               <p>
@@ -133,7 +120,9 @@ const Hero = () => {
               </p>
               <div>
                 <span>₦8,000/Night</span>
+                <Link to={'/booking'}>
                 <button>BOOK NOW</button>
+                </Link>
               </div>
             </div>
             <div>
@@ -152,7 +141,7 @@ const Hero = () => {
               </p>
               <div>
                 <span>₦15,000/Night</span>
-                <button>BOOK NOW</button>
+                <button onClick={nav}>BOOK NOW</button>
               </div>
             </div>
           </div>
@@ -202,28 +191,27 @@ const Hero = () => {
               </div>
             </div>
             <div className="aboutSec">
-              <div><img src={Restaurant} alt="" /></div>
+              <div><img src={Swim} alt="" /></div>
               <div>
-                <h5>Restaurant</h5>
-                <p>We believe in healthy living so we cook the best food.</p>
+                <h5>Swiming Pool</h5>
+                <p>We Offer a nice sized pool for lovely swimming experience.</p>
               </div>
             </div>
             <div className="aboutSec">
-              <div><img src={Restaurant} alt="" /></div>
+              <div><img src={Exq} alt="" /></div>
               <div>
-                <h5>Restaurant</h5>
-                <p>We believe in healthy living so we cook the best food.</p>
+                <h5>Exquisite Bedrooms</h5>
+                <p>Lovely rooms with maximum comfort.</p>
               </div>
             </div>
             <div className="aboutSec">
-              <div><img src={Restaurant} alt="" /></div>
+              <div><img src={Games} alt="" /></div>
               <div>
-                <h5>Restaurant</h5>
-                <p>We believe in healthy living so we cook the best food.</p>
+                <h5>Games & Fun</h5>
+                <p>We offer fun Facilities like snooker and more.</p>
               </div>
             </div>
           </div>
-          <button className="bookBtn2 mt-4">BOOK A ROOM NOW</button>
         </div>
         <div className=" rightAbout">
           <div
@@ -236,10 +224,10 @@ const Hero = () => {
                 <img src={About2} class="d-block abImg w-100" alt="..." />
               </div>
               <div class="carousel-item" data-bs-interval="2100">
-                <img src={About1} class="d-block abImg w-100" alt="..." />
+                <img src={Pool} class="d-block abImg w-100" alt="..." />
               </div>
               <div class="carousel-item" data-bs-interval="2400">
-                <img src={About2} class="d-block abImg w-100" alt="..." />
+                <img src={Rest} class="d-block abImg w-100" alt="..." />
               </div>
             </div>
           </div>
@@ -309,8 +297,8 @@ const Hero = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="background-container">
+      </div>      
+      <div className="background-container shadow-sm">
         <div>
           <h6>BEST PLACE TO BE</h6>
           <h1>
@@ -322,7 +310,47 @@ const Hero = () => {
           <button className="bookBtn mt-3">BOOK ROOM</button>
         </div>
       </div>
+      <div className="guestBook">
+      <h5 style={{ lineHeight: "15px", textAlign:"center", fontWeight:"bolder"}}>
+          <div className="fs-1 ro">Guestbook</div>
+          WHAT OUR CUSTOMERS SAY
+        </h5>
+        <div className="customDiv d-flex justify-content-between">
+          <div className="d-flex align-items-start customs">  
+            <div><img className="custom" src={Corridor} alt="" /></div>
+            <div>
+            <div className="d-flex stars">
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+            </div>
+            <h5 className="fw-bold mt-2">Mrs Bushirat Says:</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum culpa adipisci libero expedita deleniti fugit, error laboriosam sed voluptatibus vero.</p>
+            </div>
+          </div>
+          <div className="d-flex align-items-start customs">  
+            <div><img className="custom" src={Corridor} alt="" /></div>
+            <div>
+            <div className="d-flex stars">
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+              <div><img src={Star} alt="" /></div>
+            </div>
+            <h5 className="fw-bold mt-2">Mrs Bushirat Says:</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum culpa adipisci libero expedita deleniti fugit, error laboriosam sed voluptatibus vero.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+      <Footer/>
+      </div>
     </div>
+    
   );
 };
 

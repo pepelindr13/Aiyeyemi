@@ -5,11 +5,13 @@
 .box {
   position: relative;
   height: 80vh;
+  width: 100vw;
 }
 
 .firstCaro img {
   height: 80vh;
-  filter: brightness(40%);
+  filter: brightness(50%);
+  width: 100vw;
 }
 
 .carousel-item {
@@ -74,8 +76,10 @@ position: relative;
   
 }
 
-.navbar-brand {
+.navbar-brand a{
   line-height: 20px;
+  color: white;
+  text-decoration: none;
 }
 
 #navLink{
@@ -93,6 +97,22 @@ position: relative;
 }
 
 .nav-item .nav-link {
+  color: white;
+}
+
+
+.booking {
+  position: absolute;
+  bottom: 150px;
+  width: 600px;
+  text-align: start;
+  text-transform: uppercase;
+  color: white;
+}
+
+.booking h1 {
+  font-size: 40px;
+  font-weight: 700;
   color: white;
 }
 
@@ -116,7 +136,7 @@ bottom: 150px;
 .carousel-caption h1 {
   font-size: 40px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.87);
+  color: white;
 }
 
 .carousel-caption p {
@@ -163,7 +183,7 @@ align-items: center;
 }
 
 .abImg {
-  height: 500px;
+  height: 600px;
   width: 100%;
   object-fit: cover;
 }
@@ -204,6 +224,7 @@ align-items: center;
 
 .aboutSec:hover {
   background-color: #ec8004;
+  transition: 1s ease-in-out;
 }
 
 .aboutSec:hover p{
@@ -241,16 +262,8 @@ align-items: center;
 .about h6 {
   color: #ec8004;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
   font-family: sans-serif;
-}
-
-.topRight {
-  transform: translateY(-20px);
-}
-
-.topLeft{
-  transform: translateY(20px);
 }
 
 .services {
@@ -266,7 +279,7 @@ padding-top: 100px;
 .services h6, .featured h6 {
   font-family: sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .serviceDiv {
@@ -387,6 +400,9 @@ background-color: rgba(241, 241, 241, 0.692);
   height: max-content;
 }
 
+.roomInfo span{
+  font-weight: 700;
+}
 
 .rooms p {
   font-size: 15px;
@@ -421,15 +437,14 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 
 .RBooking input {
-  padding: 12px ;
+  padding: 10px 0;
   background: transparent;
   border: none;
   border-bottom:1px solid  #ec8004;
   color: white;
-  width: 100%;
-  font-size: 20px;
-outline: none;
-
+  min-width: 100%;
+  font-size: 17px;
+  outline: none;
 }
 
 
@@ -443,18 +458,19 @@ outline: none;
 .RBooking option {
   width: 100%;
   background-color: #ec8004;
-  font-size: 20px;
+  font-size: 17px;
 outline: none;
 }
 
+
 .RBooking select {
-  padding: 12px;
+  padding: 12px 0;
   width: 100%;
   background: none;
   border: none;
   border-bottom:1px solid #ec8004;
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 outline: none;
 
 }
@@ -478,6 +494,24 @@ outline: none;
 
 .roomContainer {
   padding: 100px 0;
+}
+
+.roomFlex:hover{
+  background-color: black;
+  transition: 1s ease-in-out;
+}
+
+.roomFlex:hover h2{
+color: white;
+}
+
+.roomFlex:hover button {
+  border: 1px solid white;
+  color: white;
+}
+
+.roomFlex:hover p{
+  color: rgba(255, 255, 255, 0.705);
 }
 
 .roomies {
@@ -528,11 +562,98 @@ outline: none;
   color: #ec8004;
 }
 
+
+
 .roomContainer p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(95, 95, 95);
   font-weight: 600;
   font-weight: 18px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: rgba(0, 0, 0, 0.918);
+  border-radius: 100%;
+}
+
+.carousel-control-prev-icon:hover {
+  background-color: #ec8004;
+}
+
+.guestBook {
+  padding: 100px;
+}
+
+.stars img {
+  height: 14px;
+  margin: 0 4px;
+}
+
+.guestBook h5{
+  color: #ec8004;
+}
+.custom {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.customs {
+  background-color: #dfdfdf;
+  padding:20px;
+}
+
+.customDiv {
+  gap: 100px;
+  padding: 100px 0;
+}
+
+.bookDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 300px;
+  padding: 100px;
+  align-items: center;
+}
+
+.bookDiv h2 {
+  color: #ec8004;
+}
+
+.bookDiv p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(95, 95, 95);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.RbookDiv input, .RbookDiv select{
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ffb1572d;
+  border-radius: 5px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.RbookDiv textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ec8004;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.RbookDiv button {
+}
+
+#bookCaro img{
+  height: 100vh;
+}
+
+#bookCaro .carousel-caption{
+  transform: translateY(-200px);
 }
 @media(max-width:475px) {
 
@@ -572,6 +693,9 @@ outline: none;
   }
   
   
+#bookCaro .carousel-caption{
+  transform: translateY(-300px);
+}
   
 
   .carousel-caption h1 {
@@ -640,11 +764,24 @@ outline: none;
 .RBooking form{
   flex-direction: column;
   height: max-content;
-  margin-top: 110px;
+  margin-top: 170px;
   padding: 50px 10px;
+  position: relative;
 }
 
   .rse {
     border-bottom: none;
   }
+
+  .aboutSect {
+    grid-template-columns: 1fr;
+  }
+
+.roomies {
+  grid-template-columns: 1fr;
+  padding: 30px;
+  gap: 20px;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  margin: 40px 0;
+}
 }
