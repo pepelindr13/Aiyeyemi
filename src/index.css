@@ -5,13 +5,11 @@
 .box {
   position: relative;
   height: 80vh;
-  width: 100vw;
 }
 
 .firstCaro img {
   height: 80vh;
   filter: brightness(50%);
-  width: 100vw;
 }
 
 .carousel-item {
@@ -126,12 +124,20 @@ bottom: 150px;
 /* text-transform: uppercase; */
 /* color: wheat; */
 /* }  */
+#box .carousel-caption {
+  transform: translateY(-120px);
 
-.carousel-caption {
-  transform: translateY(-100px);
 }
 
-
+.carousel-caption {
+  transform: translateY(-40px);
+}
+#boxx{
+  height: 100vh;
+}
+#boxx img {
+  height: 100vh;
+}
 
 .carousel-caption h1 {
   font-size: 40px;
@@ -143,6 +149,8 @@ bottom: 150px;
   font-weight: 700;
   margin-top: 20px;
 color: rgba(255, 255, 255, 0.863);
+margin-bottom: 40px;
+
 
 }
 
@@ -576,12 +584,12 @@ color: white;
   border-radius: 100%;
 }
 
-.carousel-control-prev-icon:hover {
+.carousel-control-prev-icon:hover,.carousel-control-next-icon:hover {
   background-color: #ec8004;
 }
 
 .guestBook {
-  padding: 100px;
+  padding: 100px 10px;
 }
 
 .stars img {
@@ -591,6 +599,8 @@ color: white;
 
 .guestBook h5{
   color: #ec8004;
+  font-weight: 700;
+  margin: 15px 0;
 }
 .custom {
   height: 70px;
@@ -600,8 +610,9 @@ color: white;
 }
 
 .customs {
-  background-color: #dfdfdf;
+  background-color: #e7e7e7;
   padding:20px;
+
 }
 
 .customDiv {
@@ -655,6 +666,10 @@ color: white;
 #bookCaro .carousel-caption{
   transform: translateY(-200px);
 }
+
+.paddedCaro {
+  padding: 0 140px;
+}
 @media(max-width:475px) {
 
   .navbar {
@@ -689,7 +704,7 @@ color: white;
   }
 
   .carousel-caption {
-    transform: translateY(-200px);
+    transform: translateY(-150px);
   }
   
   
@@ -706,7 +721,7 @@ color: white;
   
 .about {
   grid-template-columns: 1fr;
-  padding: 20px;
+  padding: 0;
 }
 
 .serviceDiv {
@@ -764,7 +779,7 @@ color: white;
 .RBooking form{
   flex-direction: column;
   height: max-content;
-  margin-top: 170px;
+  margin-top: 120px;
   padding: 50px 10px;
   position: relative;
 }
@@ -783,5 +798,18 @@ color: white;
   gap: 20px;
   border-bottom: 1px solid rgb(189, 189, 189);
   margin: 40px 0;
+}
+
+.guestBook {
+  padding: 50px 5px;
+}
+
+.customDiv {
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.paddedCaro {
+  padding: 0;
 }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Logo from "../assets/Images/logo_transparent.png";
 const Navbar = () => {
   return (
     <div className="px-3">
@@ -13,7 +13,6 @@ const Navbar = () => {
           </a>
         </div>
             <div className="navbar-toggler hamburger text-light"
-                        type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown"
@@ -46,11 +45,13 @@ const Navbar = () => {
               </a>
             </li>
             </Link>
+            <Link to={'/about'} style={{textDecoration:"none"}}>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 ABOUT
               </a>
             </li>
+            </Link>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 CONTACT
@@ -64,3 +65,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+ 

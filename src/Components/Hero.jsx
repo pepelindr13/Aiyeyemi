@@ -18,10 +18,10 @@ import Room2 from "../assets/Images/room2.jpg";
 import Room3 from "../assets/Images/room3.jpg";
 import Star from "../assets/Images/star.png";
 import Corridor from "../assets/Images/corridor.jpg";
-import Restaurant from '../assets/Images/restaurant.svg';
-import Swim from '../assets/Images/swim.svg';
-import Exq from '../assets/Images/exq.svg';
-import Games from '../assets/Images/games.png'
+import Restaurant from "../assets/Images/restaurant.svg";
+import Swim from "../assets/Images/swim.svg";
+import Exq from "../assets/Images/exq.svg";
+import Games from "../assets/Images/games.png";
 import Footer from "./Footer";
 import Email from "./Email";
 import { Link } from "react-router-dom";
@@ -29,8 +29,8 @@ import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
   let navigate = useNavigate();
-  function nav(){
-    navigate('/booking')
+  function nav() {
+    navigate("/booking");
   }
   return (
     <div>
@@ -78,7 +78,9 @@ const Hero = () => {
                   care.
                 </h1>
                 <p>YOUR ROOM YOUR STAY!</p>
-                <button onClick={nav} className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">
+                  Book Now{" "}
+                </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
@@ -92,16 +94,17 @@ const Hero = () => {
                   is designed to exceed your expectations.
                 </h1>
                 <p>ENJOY WITH US!</p>
-                <Link to={'/booking'}>
-                <button className="bookBtn">Book Now </button>
+                <Link to={"/booking"}>
+                  <button className="bookBtn">Book Now </button>
                 </Link>
-
               </div>
             </div>
           </div>
         </div>
       </div>
-        <Email/>
+      <div>
+        <Email />
+      </div>
       <div className="featured text-center ">
         <h6 style={{ lineHeight: "15px" }}>
           <div className="fs-1 ro">Rooms</div>
@@ -120,8 +123,8 @@ const Hero = () => {
               </p>
               <div>
                 <span>₦8,000/Night</span>
-                <Link to={'/booking'}>
-                <button>BOOK NOW</button>
+                <Link to={"/booking"}>
+                  <button>BOOK NOW</button>
                 </Link>
               </div>
             </div>
@@ -169,10 +172,10 @@ const Hero = () => {
       </div>
       <div className="about w-100">
         <div className="">
-        <h6 style={{ lineHeight: "15px" }}>
-          <div className="fs-1 ro">About Us</div>
-          ABOUT US
-        </h6>
+          <h6 style={{ lineHeight: "15px" }}>
+            <div className="fs-1 ro">About Us</div>
+            ABOUT US
+          </h6>
           <h1 className="my-4">
             Unwind A Hotel Booking Agency at <span>Aiyeyemi Palace</span>
           </h1>
@@ -184,28 +187,38 @@ const Hero = () => {
           </p>
           <div className="aboutSect">
             <div className="aboutSec">
-              <div><img src={Restaurant} alt="" /></div>
+              <div>
+                <img src={Restaurant} alt="" />
+              </div>
               <div>
                 <h5>Restaurant</h5>
                 <p>We believe in healthy living so we cook the best food.</p>
               </div>
             </div>
             <div className="aboutSec">
-              <div><img src={Swim} alt="" /></div>
+              <div>
+                <img src={Swim} alt="" />
+              </div>
               <div>
                 <h5>Swiming Pool</h5>
-                <p>We Offer a nice sized pool for lovely swimming experience.</p>
+                <p>
+                  We Offer a nice sized pool for lovely swimming experience.
+                </p>
               </div>
             </div>
             <div className="aboutSec">
-              <div><img src={Exq} alt="" /></div>
+              <div>
+                <img src={Exq} alt="" />
+              </div>
               <div>
                 <h5>Exquisite Bedrooms</h5>
                 <p>Lovely rooms with maximum comfort.</p>
               </div>
             </div>
             <div className="aboutSec">
-              <div><img src={Games} alt="" /></div>
+              <div>
+                <img src={Games} alt="" />
+              </div>
               <div>
                 <h5>Games & Fun</h5>
                 <p>We offer fun Facilities like snooker and more.</p>
@@ -297,7 +310,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-      </div>      
+      </div>
       <div className="background-container shadow-sm">
         <div>
           <h6>BEST PLACE TO BE</h6>
@@ -311,46 +324,257 @@ const Hero = () => {
         </div>
       </div>
       <div className="guestBook">
-      <h5 style={{ lineHeight: "15px", textAlign:"center", fontWeight:"bolder"}}>
+        <h5
+          style={{
+            lineHeight: "15px",
+            textAlign: "center",
+            fontWeight: "bolder",
+          }}
+        >
           <div className="fs-1 ro">Guestbook</div>
           WHAT OUR CUSTOMERS SAY
         </h5>
-        <div className="customDiv d-flex justify-content-between">
-          <div className="d-flex align-items-start customs">  
-            <div><img className="custom" src={Corridor} alt="" /></div>
-            <div>
-            <div className="d-flex stars">
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
+        <div id="carouselExampleIndicators" class="carousel slide paddedCaro">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div className="customDiv d-flex  flex-column flex-lg-row justify-content-between">
+                <div className="d-flex align-items-start customs">
+                  <div>
+                    <img className="custom" src={Corridor} alt="" />
+                  </div>
+                  <div>
+                    <div className="d-flex stars">
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                    </div>
+                    <h5 className="fw-bold mt-2">Mrs Bushirat Says:</h5>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Voluptatum culpa adipisci libero expedita deleniti fugit,
+                      error laboriosam sed voluptatibus vero.
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-start customs">
+                  <div>
+                    <img className="custom" src={Corridor} alt="" />
+                  </div>
+                  <div>
+                    <div className="d-flex stars">
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                    </div>
+                    <h5 className="fw-bold mt-2">Mr Abdulsalam Says:</h5>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Voluptatum culpa adipisci libero expedita deleniti fugit,
+                      error laboriosam sed voluptatibus vero.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h5 className="fw-bold mt-2">Mrs Bushirat Says:</h5>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum culpa adipisci libero expedita deleniti fugit, error laboriosam sed voluptatibus vero.</p>
+            <div class="carousel-item">
+              <div className="customDiv d-flex  flex-column flex-lg-row justify-content-between">
+                <div className="d-flex align-items-start customs">
+                  <div>
+                    <img className="custom" src={Corridor} alt="" />
+                  </div>
+                  <div>
+                    <div className="d-flex stars">
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                    </div>
+                    <h5 className="fw-bold mt-2">Mrs Aishat Says:</h5>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Voluptatum culpa adipisci libero expedita deleniti fugit,
+                      error laboriosam sed voluptatibus vero.
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-start customs">
+                  <div>
+                    <img className="custom" src={Corridor} alt="" />
+                  </div>
+                  <div>
+                    <div className="d-flex stars">
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                    </div>
+                    <h5 className="fw-bold mt-2">Mr Mahmud Says:</h5>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Voluptatum culpa adipisci libero expedita deleniti fugit,
+                      error laboriosam sed voluptatibus vero.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div className="customDiv d-flex  flex-column flex-lg-row justify-content-between">
+                <div className="d-flex align-items-start customs">
+                  <div>
+                    <img className="custom" src={Corridor} alt="" />
+                  </div>
+                  <div>
+                    <div className="d-flex stars">
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                    </div>
+                    <h5 className="fw-bold mt-2">Mrs Munirat Says:</h5>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Voluptatum culpa adipisci libero expedita deleniti fugit,
+                      error laboriosam sed voluptatibus vero.
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-start customs">
+                  <div>
+                    <img className="custom" src={Corridor} alt="" />
+                  </div>
+                  <div>
+                    <div className="d-flex stars">
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                      <div>
+                        <img src={Star} alt="" />
+                      </div>
+                    </div>
+                    <h5 className="fw-bold mt-2">Mr Oreoluwa Says:</h5>
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Voluptatum culpa adipisci libero expedita deleniti fugit,
+                      error laboriosam sed voluptatibus vero.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="d-flex align-items-start customs">  
-            <div><img className="custom" src={Corridor} alt="" /></div>
-            <div>
-            <div className="d-flex stars">
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
-              <div><img src={Star} alt="" /></div>
-            </div>
-            <h5 className="fw-bold mt-2">Mrs Bushirat Says:</h5>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum culpa adipisci libero expedita deleniti fugit, error laboriosam sed voluptatibus vero.</p>
-            </div>
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <div>
-      <Footer/>
+        <Footer />
       </div>
     </div>
-    
   );
 };
 
