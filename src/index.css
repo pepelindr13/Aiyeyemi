@@ -691,9 +691,12 @@ input {
   padding: 0 140px;
 }
 @media(max-width:475px) {
-  #inInput,#outInput{
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  button {
     width: 100%;
-    border-bottom: 1px solid;
+    box-sizing: border-box;
   }
   .navbar {
     position: absolute;

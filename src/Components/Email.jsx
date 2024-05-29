@@ -50,8 +50,8 @@ const Email = () => {
 
   return (
     <div className='RBooking'>
-      <form onSubmit={sendEmail}>
-      <div>
+      <form onSubmit={sendEmail} className='w-100'>
+      <div className='w-100'>
         <label>Email:</label>
         <input
         placeholder='Email address'
@@ -62,7 +62,7 @@ const Email = () => {
           required
         />
       </div>
-      <div>
+      <div className='w-100'>
         <label>Check-In Date:</label>
         <input
         placeholder='Check In'
@@ -74,7 +74,7 @@ const Email = () => {
           className='w-100'
         />
       </div>
-      <div>
+      <div className='w-100'>
         <label>Check-Out Date:</label>
         <input
         placeholder='Check Out'
@@ -86,7 +86,7 @@ const Email = () => {
           className='w-100'
         />
       </div>
-      <div>
+      <div className='w-100'>
         <label>Room Type:</label>
         <select
           name="roomType"

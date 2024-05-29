@@ -134,7 +134,6 @@ const Booking = () => {
           </div>
         </div>
       </div>
-      <div><Email/></div>
       <div className="roomContainer text-center">
         <h6 style={{lineHeight:"15px"}}>
         <div className="fs-1 fw-bolder ro">Rooms</div>
