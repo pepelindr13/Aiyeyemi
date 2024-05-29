@@ -71,6 +71,7 @@ const Email = () => {
           value={formData.checkInDate}
           onChange={handleChange}
           required
+          className='w-100'
         />
       </div>
       <div>
@@ -82,6 +83,7 @@ const Email = () => {
           value={formData.checkOutDate}
           onChange={handleChange}
           required
+          className='w-100'
         />
       </div>
       <div>
@@ -97,7 +99,7 @@ const Email = () => {
           <option value="double">Crown Executive</option>
           <option value="suite">Standard Suite</option>
           <option value="suite">Single Executive</option>
-          <option value="suite">Single Ordinaryn</option>
+          <option value="suite">Single Ordinary</option>
         </select>
       </div>
       <button className='bootBtn w-25' type="submit">Book Now</button>

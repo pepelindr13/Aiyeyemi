@@ -663,19 +663,18 @@ input {
   width: 100%;
   padding: 14px;
   border: 1px solid #ffb1572d;
-  border-radius: 5px;
   margin: 10px 0;
   outline: none;
   background: none;
 }
 
-.RbookDiv textarea{
+/* .RbookDiv textarea{
   width: 100%;
   padding: 10px;
   border: 1px solid #ec8004;
   border-radius: 5px;
   margin: 10px 0;
-}
+} */
 
 .RbookDiv button {
 }
@@ -692,8 +691,9 @@ input {
   padding: 0 140px;
 }
 @media(max-width:475px) {
-  input,select,option {
+  #inInput,#outInput{
     width: 100%;
+    border-bottom: 1px solid;
   }
   .navbar {
     position: absolute;

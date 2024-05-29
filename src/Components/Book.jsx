@@ -119,7 +119,7 @@ const Book = () => {
                 <p className=" lh-lg text-secondary">Discover the perfect blend of luxury and comfort at <span style={{color:"#ec8004", fontWeight:"bold"}}>Aiyeyemi Palace Hotel</span>, where every stay is a memorable experience. Whether you're seeking a romantic getaway, a family vacation, or a business trip, our elegant rooms and top-notch amenities are designed to cater to all your needs.</p>
             </div>
             <div className="RbookDiv">
-        <form className="shadow-lg p-4" onSubmit={sendEmail}>
+        <form className="shadow-lg p-4 w-100" onSubmit={sendEmail}>
             <h2 className="mb-4">Bo<span className="text-decoration-underline">ok A Ro</span>om</h2>
             <div className="w-100">
             <input
