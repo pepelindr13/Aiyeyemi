@@ -64,7 +64,7 @@ const Hero = () => {
                   every stay is a journey of comfort and luxury.
                 </h1>
                 <p>HOTEL & RESORT!</p>
-                <button className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
@@ -96,7 +96,7 @@ const Hero = () => {
                 </h1>
                 <p>ENJOY WITH US!</p>
                 <Link to={"/booking"}>
-                  <button className="bookBtn">Book Now </button>
+                  <button onClick={nav} className="bookBtn">Book Now </button>
                 </Link>
               </div>
             </div>
@@ -124,7 +124,7 @@ const Hero = () => {
               <div>
                 <span>₦8,000/Night</span>
                 <Link to={"/booking"}>
-                  <button>BOOK NOW</button>
+                  <button id="spanBtn" onClick={nav}>BOOK NOW</button>
                 </Link>
               </div>
             </div>
@@ -143,7 +143,7 @@ const Hero = () => {
               </p>
               <div>
                 <span>₦15,000/Night</span>
-                <button onClick={nav}>BOOK NOW</button>
+                <button id="spanBtn" onClick={nav}>BOOK NOW</button>
               </div>
             </div>
           </div>
@@ -155,7 +155,7 @@ const Hero = () => {
               </p>
               <div>
                 <span>₦25,000/Night</span>
-                <button>BOOK NOW</button>
+                <button id="spanBtn" onClick={nav}>BOOK NOW</button>
               </div>
             </div>
             <div>
@@ -309,7 +309,7 @@ const Hero = () => {
           </h1>
         </div>
         <div>
-          <button className="bookBtn mt-3">BOOK ROOM</button>
+          <button onClick={nav} className="bookBtn mt-3">BOOK ROOM</button>
         </div>
       </div>
       <div className="guestBook">

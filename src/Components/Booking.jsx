@@ -13,9 +13,13 @@ import Tf3 from '../assets/Images/25k3.jpg'
 import Footer from './Footer'
 import Email from './Email'
 import { useState } from 'react'
-
+import { useNavigate } from 'react-router-dom'
 
 const Booking = () => {
+  let navigate = useNavigate();
+  function nav() {
+    navigate("/booking");
+  }
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -98,7 +102,7 @@ const Booking = () => {
                   Our rooms!
                 </h1>
                 <p>HOTEL & RESORT!</p>
-                <button className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
@@ -111,7 +115,7 @@ const Booking = () => {
                   Comfy & Luxurious Rooms
                 </h1>
                 <p>YOUR ROOM YOUR STAY!</p>
-                <button className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
@@ -124,7 +128,7 @@ const Booking = () => {
                   Enjoy every second.
                 </h1>
                 <p>ENJOY WITH US!</p>
-                <button className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
           </div>
@@ -184,7 +188,7 @@ const Booking = () => {
                 <span>Restaurant & Bar</span>
               </div>
               </div>
-              <button className='roomBtn'>Book Now</button>
+              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
         </div>
         <div className='roomies text-start '>
@@ -235,7 +239,7 @@ const Booking = () => {
                 <span>Restaurant & Bar</span>
               </div>
               </div>
-              <button className='roomBtn'>Book Now</button>
+              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
         </div>
         <div className='roomies text-start '>
@@ -286,7 +290,7 @@ const Booking = () => {
                 <span>Restaurant & Bar</span>
               </div>
               </div>
-              <button className='roomBtn'>Book Now</button>
+              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
         </div>
         <div className='roomies text-start '>
@@ -337,7 +341,7 @@ const Booking = () => {
                 <span>Restaurant & Bar</span>
               </div>
               </div>
-              <button className='roomBtn'>Book Now</button>
+              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
         </div>
         <div className='roomies text-start '>
@@ -388,7 +392,7 @@ const Booking = () => {
                 <span>Restaurant & Bar</span>
               </div>
               </div>
-              <button className='roomBtn'>Book Now</button>
+              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
         </div>
       </div>

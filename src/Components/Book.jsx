@@ -81,10 +81,9 @@ const Book = () => {
             <div className="carousel-item active" data-bs-interval="4000">
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
-                id="cap2"
                 className="carousel-caption animate__animated animate__slideInUp"
               >
-                <h1>Your home of Comfort & Pleasure.</h1>
+                <h1>Book Below!</h1>
                 <p>HOTEL & RESORT!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
@@ -120,7 +119,7 @@ const Book = () => {
                 <p className=" lh-lg text-secondary">Discover the perfect blend of luxury and comfort at <span style={{color:"#ec8004", fontWeight:"bold"}}>Aiyeyemi Palace Hotel</span>, where every stay is a memorable experience. Whether you're seeking a romantic getaway, a family vacation, or a business trip, our elegant rooms and top-notch amenities are designed to cater to all your needs.</p>
             </div>
             <div className="RbookDiv">
-        <form onSubmit={sendEmail}>
+        <form className="shadow-lg p-4" onSubmit={sendEmail}>
             <h2 className="mb-4">Bo<span className="text-decoration-underline">ok A Ro</span>om</h2>
             <div>
             <input
@@ -164,9 +163,10 @@ const Book = () => {
               <option value="" disabled>
                 Select a room type
               </option>
-              <option value="single">Single</option>
-              <option value="double">Double</option>
-              <option value="suite">Suite</option>
+              <option value="single">Vip Suite</option>
+              <option value="double">Crown Executive</option>
+              <option value="suite">Single Executive</option>
+              <option value="suite">Single Ordinary</option>
             </select>
           </div>
           <div>

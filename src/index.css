@@ -400,6 +400,12 @@ background-color: rgba(241, 241, 241, 0.692);
   font-family: sans-serif;
   padding:5px 10px;
 }
+#spanBtn:hover{
+  background-color: white;
+  color: black;
+  transition: .5s ease-in-out;
+  border: none;
+}
 
 .rooms span {
   color: #ec8004;
@@ -674,7 +680,7 @@ color: white;
 }
 
 #bookCaro .carousel-caption{
-  transform: translateY(-200px);
+  transform: translateY(-150px);
 }
 
 .paddedCaro {
@@ -826,4 +832,11 @@ color: white;
 .paddedCaro {
   padding: 0;
 }
+
+.bookDiv{
+  grid-template-columns: 1fr;
+  padding: 10px;
+  gap: 20px;
+}
+
 }
