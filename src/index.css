@@ -693,8 +693,7 @@ input {
 @media(max-width:475px) {
   input[type="text"],
   input[type="email"],
-  input[type="date"],
-  button {
+  input[type="date"]{
     width: 100%;
     box-sizing: border-box;
   }
@@ -848,6 +847,11 @@ input {
   grid-template-columns: 1fr;
   padding: 10px;
   gap: 20px;
+}
+
+.roomcap {
+  height: max-content;
+  padding: 20px;
 }
 
 }
