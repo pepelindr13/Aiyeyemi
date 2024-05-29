@@ -655,6 +655,10 @@ color: white;
   font-size: 18px;
 }
 
+input {
+  width: 100%;
+}
+
 .RbookDiv input, .RbookDiv select{
   width: 100%;
   padding: 14px;
@@ -662,6 +666,7 @@ color: white;
   border-radius: 5px;
   margin: 10px 0;
   outline: none;
+  background: none;
 }
 
 .RbookDiv textarea{
@@ -687,7 +692,9 @@ color: white;
   padding: 0 140px;
 }
 @media(max-width:475px) {
-
+  input,select,option {
+    width: 100%;
+  }
   .navbar {
     position: absolute;
     top: 0;
@@ -708,7 +715,9 @@ color: white;
     color: #ec8004;
   }
   
-  
+  .box {
+    height: 100vh;
+  }
 
   .nav-link a {
     color: #ec8004;
@@ -741,7 +750,7 @@ color: white;
   
 .about {
   grid-template-columns: 1fr;
-  padding: 0;
+  padding: 40px 10px;
 }
 
 .serviceDiv {
@@ -799,7 +808,6 @@ color: white;
 .RBooking form{
   flex-direction: column;
   height: max-content;
-  margin-top: 120px;
   padding: 50px 10px;
   z-index: 10000;
 }

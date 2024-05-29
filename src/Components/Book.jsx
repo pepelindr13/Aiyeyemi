@@ -121,7 +121,7 @@ const Book = () => {
             <div className="RbookDiv">
         <form className="shadow-lg p-4" onSubmit={sendEmail}>
             <h2 className="mb-4">Bo<span className="text-decoration-underline">ok A Ro</span>om</h2>
-            <div>
+            <div className="w-100">
             <input
               placeholder="Full Name"
               type="text"
@@ -131,7 +131,7 @@ const Book = () => {
               required
             />
           </div>
-          <div>
+          <div className="w-100">
             <div><label>Check-In Date:</label></div>
             <input
               placeholder="Check In"
@@ -142,7 +142,7 @@ const Book = () => {
               required
             />
           </div>
-          <div>
+          <div className="w-100">
             <div><label>Check-Out Date:</label></div>
             <input
               placeholder="Check Out"
@@ -153,7 +153,7 @@ const Book = () => {
               required
             />
           </div>
-          <div>
+          <div className="w-100">
             <select
               name="roomType"
               value={formData.roomType}
@@ -169,7 +169,7 @@ const Book = () => {
               <option value="suite">Single Ordinary</option>
             </select>
           </div>
-          <div>
+          <div className="w-100">
             <input
               placeholder="Email address"
               type="email"
