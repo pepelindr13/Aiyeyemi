@@ -854,4 +854,8 @@ input {
   padding: 20px;
 }
 
+.aboutSec img{
+  height: 40px;
+  width: 40px;
+}
 }
