@@ -93,9 +93,11 @@ const Email = () => {
           required
         >
           <option value="" disabled>Select a room type</option>
-          <option value="single">Single</option>
-          <option value="double">Double</option>
-          <option value="suite">Suite</option>
+          <option value="single">VIP Suite</option>
+          <option value="double">Crown Executive</option>
+          <option value="suite">Standard Suite</option>
+          <option value="suite">Single Executive</option>
+          <option value="suite">Single Ordinaryn</option>
         </select>
       </div>
       <button className='bootBtn w-25' type="submit">Book Now</button>

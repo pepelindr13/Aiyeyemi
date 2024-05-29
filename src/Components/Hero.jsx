@@ -26,6 +26,7 @@ import Footer from "./Footer";
 import Email from "./Email";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import Tt1 from '../assets/Images/30k1.jpg'
 
 const Hero = () => {
   let navigate = useNavigate();
@@ -46,7 +47,7 @@ const Hero = () => {
           <Navbar />
         </div>
         <div
-          style={{ position: "absolute", width: "100%" }}
+          style={{ position: "absolute", width: "100%",height:"max-content" }}
           id="carouselExampleCaptions"
           className="carousel slide carousel-fade "
           data-bs-ride="carousel"
@@ -115,11 +116,10 @@ const Hero = () => {
         </h1>
         <div className="rooms">
           <div className="roomFlex shadow-sm">
-            <div className="p-5">
-              <h2>Royal Room</h2>
+            <div className="p-5 roomcap">
+              <h2>Vip Suite</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+              Spacious and Stylish: Your Home Away from Home!. Create Lasting Memories in Our Family-Friendly Room!
               </p>
               <div>
                 <span>₦8,000/Night</span>
@@ -129,18 +129,17 @@ const Hero = () => {
               </div>
             </div>
             <div>
-              <img className="h-100" src={Room3} alt="" />
+              <img className="h-100" src={Tt1} alt="" />
             </div>
           </div>
           <div className="roomFlex shadow-sm">
             <div>
               <img src={Room2} alt="" />
             </div>
-            <div className="p-5">
-              <h2>Deluxe Room</h2>
+            <div className="p-5 roomcap">
+              <h2>Standard Suite</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+               Comfort and Convenience in Our Cozy Standard Room, Affordable Elegance: Your Perfect Retreat!.
               </p>
               <div>
                 <span>₦15,000/Night</span>
@@ -149,11 +148,10 @@ const Hero = () => {
             </div>
           </div>
           <div className="roomFlex shadow-sm">
-            <div className="p-5">
-              <h2>Standard Room</h2>
+            <div className="p-5 roomcap">
+              <h2>Crown Executive Room</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+               Business Meets Comfort in Our Executive Room, Stay Productive and Relaxed in Our Executive Accommodations!
               </p>
               <div>
                 <span>₦25,000/Night</span>
@@ -259,59 +257,50 @@ const Hero = () => {
             <img src={Power} alt="" />
             <h4>24/7 Electricity</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              corrupti ut? Repellat iste nobis placeat error deleniti voluptate
-              dolorum possimus?
+            Enjoy Uninterrupted Comfort with Our Steady Electricity Supply!
             </p>
           </div>
           <div className="shadow-sm bg-light">
             <img src={Laundry} alt="" />
             <h4>Laundry</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              corrupti ut? Repellat iste nobis placeat error deleniti voluptate
-              dolorum possimus?
+            Enjoy Crisp, Clean Clothes Every Day with Our On-Demand Laundry Service!
             </p>
           </div>
           <div className="shadow-sm bg-light">
             <img src={Bar} alt="" />
             <h4>Bar & Drinks</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              corrupti ut? Repellat iste nobis placeat error deleniti voluptate
-              dolorum possimus?
+            Unwind with Signature Cocktails and Premium Beverages at Our Bar!
             </p>
           </div>
           <div className="shadow-sm bg-light">
             <img src={Pool} alt="" />
             <h4>Swimming Pool</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              corrupti ut? Repellat iste nobis placeat error deleniti voluptate
-              dolorum possimus?
+            Dive into Luxury at Our Sparkling Swimming Pool!, Relax and Refresh in Our Pristine Swimming Pool!.
             </p>
           </div>
           <div className="shadow-sm bg-light">
             <img src={Rest} alt="" />
             <h4>Restaurant</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              corrupti ut? Repellat iste nobis placeat error deleniti voluptate
-              dolorum possimus?
+            Indulge in Culinary Excellence at Our Gourmet Restaurant! Savor Delectable Dishes at Our Elegant Restaurant!.
             </p>
           </div>
           <div className="shadow-sm bg-light">
             <img src={Game} alt="" />
             <h4>Games</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat,
-              corrupti ut? Repellat iste nobis placeat error deleniti voluptate
-              dolorum possimus?
+            Endless Fun Awaits at Our State-of-the-Art Game Center!
             </p>
           </div>
         </div>
       </div>
-      <div className="background-container shadow-sm">
+      <div className="background-container shadow-sm px-5">
+        <div className="cover d-none d-lg-block">
+          <img src="https://preview.colorlib.com/theme/ecoho/assets/img/gallery/items2.png" alt="" />
+        </div>
         <div>
           <h6>BEST PLACE TO BE</h6>
           <h1>
