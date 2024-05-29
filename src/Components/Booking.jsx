@@ -95,7 +95,7 @@ const Booking = () => {
                 className="carousel-caption animate__animated animate__slideInUp"
               >
                 <h1>
-                  Your home of Comfort & Pleasure.
+                  Our rooms!
                 </h1>
                 <p>HOTEL & RESORT!</p>
                 <button className="bookBtn">Book Now </button>

@@ -50,7 +50,7 @@ const Email = () => {
 
   return (
     <div className='RBooking'>
-          <form onSubmit={sendEmail}>
+      <form onSubmit={sendEmail}>
       <div>
         <label>Email:</label>
         <input
