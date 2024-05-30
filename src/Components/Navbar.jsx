@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="px-3">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex justify-content-space-between">
-        <Link to={'/'}>
+        <Link to={'/'} style={{textDecoration: "none"}}>
         <div className="navbar-brand">
         <a className="fw-bolder" href="#">
             AIYEYEMI <br />
@@ -36,7 +36,7 @@ const Navbar = () => {
                 aria-current="page"
                 href="#"
               >
-                HOME
+                HOME 
               </a>
             </li>
             </Link>
