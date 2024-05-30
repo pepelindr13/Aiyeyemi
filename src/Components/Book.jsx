@@ -113,7 +113,7 @@ const Book = () => {
           </div>
         </div>
       </div>
-        <div className="bookDiv">
+        <div className="bookDiv pt-5">
             <div>
                 <h2 className="mb-4">Book a room with us today and enjoy a relaxing & comfy stay </h2>
                 <p className=" lh-lg text-secondary">Discover the perfect blend of luxury and comfort at <span style={{color:"#ec8004", fontWeight:"bold"}}>Aiyeyemi Palace Hotel</span>, where every stay is a memorable experience. Whether you're seeking a romantic getaway, a family vacation, or a business trip, our elegant rooms and top-notch amenities are designed to cater to all your needs.</p>

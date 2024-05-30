@@ -6,12 +6,14 @@ const Navbar = () => {
     <div className="px-3">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex justify-content-space-between">
+        <Link to={'/'}>
         <div className="navbar-brand">
         <a className="fw-bolder" href="#">
             AIYEYEMI <br />
             PALACE
           </a>
         </div>
+        </Link>
             <div className="navbar-toggler hamburger text-light"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown"

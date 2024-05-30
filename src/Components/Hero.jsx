@@ -27,6 +27,13 @@ import Email from "./Email";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Tt1 from '../assets/Images/30k1.jpg'
+import Home1 from '../assets/Images/home1.jpg'
+import Cus1 from '../assets/Images/cus1.jpg'
+import Cus2 from '../assets/Images/cus2.jpg'
+import Cus3 from '../assets/Images/cus3.jpg'
+import Cus4 from '../assets/Images/cus4.jpg'
+import Cus5 from '../assets/Images/cus5.jpg'
+
 
 const Hero = () => {
   let navigate = useNavigate();
@@ -54,7 +61,7 @@ const Hero = () => {
         >
           <div className="firstCaro carousel-inner">
             <div className="carousel-item active" data-bs-interval="4000">
-              <img src={Corridor} className="d-block w-100" alt="..." />
+              <img src={Home1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
                 className="carousel-caption animate__animated animate__slideInUp"
@@ -351,7 +358,7 @@ const Hero = () => {
               <div className="customDiv d-flex  flex-column flex-lg-row justify-content-between">
                 <div className="d-flex align-items-start customs">
                   <div>
-                    <img className="custom" src={Corridor} alt="" />
+                    <img className="custom" src={Cus1} alt="" />
                   </div>
                   <div>
                     <div className="d-flex stars">
@@ -373,15 +380,13 @@ const Hero = () => {
                     </div>
                     <h5 className="fw-bold mt-2">Mrs Bushirat Says:</h5>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Voluptatum culpa adipisci libero expedita deleniti fugit,
-                      error laboriosam sed voluptatibus vero.
+                    A perfect blend of luxury and comfort. Our stay was unforgettable!
                     </p>
                   </div>
                 </div>
                 <div className="d-flex align-items-start customs">
                   <div>
-                    <img className="custom" src={Corridor} alt="" />
+                    <img className="custom" src={Cus2} alt="" />
                   </div>
                   <div>
                     <div className="d-flex stars">
@@ -403,9 +408,7 @@ const Hero = () => {
                     </div>
                     <h5 className="fw-bold mt-2">Mr Abdulsalam Says:</h5>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Voluptatum culpa adipisci libero expedita deleniti fugit,
-                      error laboriosam sed voluptatibus vero.
+                    The service was impeccable and the amenities exceeded our expectations.
                     </p>
                   </div>
                 </div>
@@ -415,7 +418,7 @@ const Hero = () => {
               <div className="customDiv d-flex  flex-column flex-lg-row justify-content-between">
                 <div className="d-flex align-items-start customs">
                   <div>
-                    <img className="custom" src={Corridor} alt="" />
+                    <img className="custom" src={Cus3} alt="" />
                   </div>
                   <div>
                     <div className="d-flex stars">
@@ -437,15 +440,13 @@ const Hero = () => {
                     </div>
                     <h5 className="fw-bold mt-2">Mrs Aishat Says:</h5>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Voluptatum culpa adipisci libero expedita deleniti fugit,
-                      error laboriosam sed voluptatibus vero.
+                    Beautiful rooms, great location, and top-notch hospitality!
                     </p>
                   </div>
                 </div>
                 <div className="d-flex align-items-start customs">
                   <div>
-                    <img className="custom" src={Corridor} alt="" />
+                    <img className="custom" src={Cus4} alt="" />
                   </div>
                   <div>
                     <div className="d-flex stars">
@@ -467,9 +468,7 @@ const Hero = () => {
                     </div>
                     <h5 className="fw-bold mt-2">Mr Mahmud Says:</h5>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Voluptatum culpa adipisci libero expedita deleniti fugit,
-                      error laboriosam sed voluptatibus vero.
+                    We felt right at home with the friendly staff and excellent facilities.
                     </p>
                   </div>
                 </div>
@@ -479,7 +478,7 @@ const Hero = () => {
               <div className="customDiv d-flex  flex-column flex-lg-row justify-content-between">
                 <div className="d-flex align-items-start customs">
                   <div>
-                    <img className="custom" src={Corridor} alt="" />
+                    <img className="custom" src={Cus5} alt="" />
                   </div>
                   <div>
                     <div className="d-flex stars">
@@ -501,9 +500,7 @@ const Hero = () => {
                     </div>
                     <h5 className="fw-bold mt-2">Mrs Munirat Says:</h5>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Voluptatum culpa adipisci libero expedita deleniti fugit,
-                      error laboriosam sed voluptatibus vero.
+                    The best hotel experience we've had in years. Highly recommend!
                     </p>
                   </div>
                 </div>
@@ -531,9 +528,7 @@ const Hero = () => {
                     </div>
                     <h5 className="fw-bold mt-2">Mr Oreoluwa Says:</h5>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Voluptatum culpa adipisci libero expedita deleniti fugit,
-                      error laboriosam sed voluptatibus vero.
+                    Exceptional service and stunning decor. We can't wait to return!
                     </p>
                   </div>
                 </div>
