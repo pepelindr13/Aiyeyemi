@@ -54,11 +54,13 @@ const Navbar = () => {
               </a>
             </li>
             </Link>
+            <Link to={'/contact'} style={{textDecoration:"none"}}>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 CONTACT
               </a>
             </li>
+            </Link>
           </ul>
         </div>
       </nav>

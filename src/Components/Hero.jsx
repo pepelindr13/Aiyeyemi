@@ -33,26 +33,10 @@ import Cus2 from '../assets/Images/cus2.jpg'
 import Cus3 from '../assets/Images/cus3.jpg'
 import Cus4 from '../assets/Images/cus4.jpg'
 import Cus5 from '../assets/Images/cus5.jpg'
+import Topbtn from "./Topbtn";
 
 
 const Hero = () => {
-  window.addEventListener('scroll', function() {
-    var scrollToTopBtn = document.getElementById('scrollToTopBtn');
-    if (window.scrollY > 200) { // Show button when scrolled down 200px
-      scrollToTopBtn.classList.add('bounce');
-      scrollToTopBtn.style.display = 'block';
-    } else {
-      scrollToTopBtn.style.display = 'none';
-      scrollToTopBtn.classList.remove('bounce');
-    }
-  });
-  
-  function scroll(){
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  }
 
   let navigate = useNavigate();
   function nav() {
@@ -71,7 +55,7 @@ const Hero = () => {
         >
           <Navbar />
         </div>
-        <div
+        <div 
           style={{ position: "absolute", width: "100%",height:"max-content" }}
           id="carouselExampleCaptions"
           className="carousel slide carousel-fade "
@@ -576,7 +560,6 @@ const Hero = () => {
       <div>
         <Footer />
       </div>
-      <button onClick={scroll} id="scrollToTopBtn">↑ Top</button>
     </div>
   );
 };
