@@ -36,12 +36,30 @@ import Cus5 from '../assets/Images/cus5.jpg'
 
 
 const Hero = () => {
+  window.addEventListener('scroll', function() {
+    var scrollToTopBtn = document.getElementById('scrollToTopBtn');
+    if (window.scrollY > 200) { // Show button when scrolled down 200px
+      scrollToTopBtn.classList.add('bounce');
+      scrollToTopBtn.style.display = 'block';
+    } else {
+      scrollToTopBtn.style.display = 'none';
+      scrollToTopBtn.classList.remove('bounce');
+    }
+  });
+  
+  function scroll(){
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
   let navigate = useNavigate();
   function nav() {
     navigate("/booking");
   }
   return (
-    <div>
+    <div className="content">
       <div className="box">
         <div
           style={{
@@ -64,7 +82,7 @@ const Hero = () => {
               <img src={Home1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>
                   Welcome to your tranquil oasis amidst the bustling city, where
@@ -78,7 +96,7 @@ const Hero = () => {
               <img src={About2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>
                   At Aiyeyemi Palace Hotel, Elevate your stay to an
@@ -95,7 +113,7 @@ const Hero = () => {
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>
                   Unwind in style at AIYEYEMI PALACE HOTEL, where every detail
@@ -558,6 +576,7 @@ const Hero = () => {
       <div>
         <Footer />
       </div>
+      <button onClick={scroll} id="scrollToTopBtn">↑ Top</button>
     </div>
   );
 };

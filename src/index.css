@@ -733,6 +733,66 @@ input {
   gap: 40px;
   margin-top: 40px;
 }
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ec8004; /* Change this to your preferred color */
+  color: white;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+  display: none; /* Hide the button initially */
+  animation: fadeIn 0.5s forwards;
+}
+
+
+#scrollToTopBtn:hover {
+  background-color: black; /* Change this to your preferred hover color */
+  color: #ec8004;
+}
+
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Bounce animation */
+@keyframes bounceIn {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  animation: bounceIn 1s;
+}
+
+/* Fade-in class for content */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.fade-in:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.fade-in:nth-child(2) {
+  animation-delay: 1s;
+}
 @media(max-width:475px) {
   input[type="text"],
   input[type="email"],
