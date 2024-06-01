@@ -92,7 +92,7 @@ const Booking = () => {
           data-bs-ride="carousel"
         >
           <div className="firstCaro carousel-inner">
-            <div className="carousel-item active" data-bs-interval="2000">
+            <div className="carousel-item active" data-bs-interval="3000">
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
@@ -105,7 +105,7 @@ const Booking = () => {
                 <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="2000">
+            <div className="carousel-item" data-bs-interval="3000">
               <img src={Room2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
@@ -118,7 +118,7 @@ const Booking = () => {
                 <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="2000">
+            <div className="carousel-item" data-bs-interval="3000">
               <img src={Room3} className="d-block w-100" alt="..." />
               <div
                 id="cap3"

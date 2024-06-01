@@ -62,7 +62,7 @@ position: relative;
 }
 
 .nav-item a:hover {
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .nav-link {
@@ -109,7 +109,7 @@ position: relative;
 }
 
 #navLink{
-  color:   #03AED2 ;
+  color:   #FF204E ;
 }
 
 .nav-item {
@@ -196,15 +196,15 @@ margin-bottom: 40px;
 
 .bookBtn {
   background-color: transparent;
-  color: #03AED2 ;
-  border: 1px solid #03AED2 ;
+  color: #FF204E ;
+  border: 1px solid #FF204E ;
   padding: 13px 13px 10px 13px;
   border-radius: 4px;
   font-weight: 600;
 }
 
 .bookBtn:hover {
-  background-color: #03AED2 ;
+  background-color: #FF204E ;
   color: white;
 }
 
@@ -232,13 +232,13 @@ align-items: center;
 .about h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .about h6 {
   font-size: 14px;
   font-weight: 700;
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .aboutSec{
@@ -255,16 +255,16 @@ align-items: center;
 }
 
 .bookBtn2 {
-  background-color: #03AED2;
+  background-color: #FF204E;
   color: white;
-  border: 1px solid #03AED2;
+  border: 1px solid #FF204E;
   padding: 13px 13px 10px 13px;
   border-radius: 4px;
   
 }
 
 .aboutSec:hover {
-  background-color: #03AED2;
+  background-color: #FF204E;
   transition: 1s ease-in-out;
 }
 
@@ -299,8 +299,10 @@ align-items: center;
   font-weight: 700;
 }
 
+
+
 .about h6 {
-  color: #03AED2;
+  color: #FF204E;
   font-weight: 700;
   font-size: 17px;
 }
@@ -312,7 +314,7 @@ padding-top: 100px;
 }
 
 .services h4, .services h6, .featured h6 {
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .services h6, .featured h6 {
@@ -391,7 +393,7 @@ padding-top: 100px;
   position: relative; /* Ensure the content is positioned above the background */
   z-index: 1;
   font-weight: 900;
-  color: #03AED2; 
+  color: #FF204E; 
   margin-bottom: 20px;
 }
 
@@ -418,8 +420,8 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 
 .rooms button {
-  background:#03AED2;
-  border: 1px solid #03AED2;
+  background:#ff1241;
+  border: 1px solid #ff1241;
   font-size: 12px;
   color: white;
   margin-left: 20px;
@@ -427,13 +429,13 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 #spanBtn:hover{
   background-color: white;
-  color: #03AED2;
+  color: #ff1241;
   transition: .5s ease-in-out;
   border: none;
 }
 
 .rooms span {
-  color: #03AED2;
+  color: #ff1241;
   font-weight: 700;
   font-size: 17px;
 }
@@ -489,7 +491,7 @@ background-color: rgba(241, 241, 241, 0.692);
   padding: 10px 0;
   background: transparent;
   border: none;
-  border-bottom:1px solid  #03AED2;
+  border-bottom:1px solid  #FF204E;
   color: white;
   min-width: 100%;
   font-size: 17px;
@@ -499,7 +501,7 @@ background-color: rgba(241, 241, 241, 0.692);
 
 
 .RBooking label {
- color: #03AED2;
+ color: #FF204E;
  font-weight: 700;
  margin-bottom: 5px;
 }
@@ -507,7 +509,7 @@ background-color: rgba(241, 241, 241, 0.692);
 
 .RBooking option {
   width: 100%;
-  background-color: #03AED2;
+  background-color: #FF204E;
   font-size: 17px;
 outline: none;
 }
@@ -518,7 +520,7 @@ outline: none;
   width: 100%;
   background: none;
   border: none;
-  border-bottom:1px solid #03AED2;
+  border-bottom:1px solid #FF204E;
   color: white;
   font-size: 17px;
   outline: none;
@@ -532,14 +534,14 @@ outline: none;
 .bootBtn {
   width: 50%;
   background-color: transparent;
-  color: #03AED2;
-  border: 1px solid #03AED2;
+  color: #FF204E;
+  border: 1px solid #FF204E;
   padding: 10px 0;
 }
 
 .bootBtn:hover {
   color: white;
-  background-color: #03AED2;
+  background-color: #FF204E;
 }
 
 .roomContainer {
@@ -591,7 +593,7 @@ color: white;
 }
 
 .roomies h1 {
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .roomimg {
@@ -601,7 +603,7 @@ color: white;
 }
 
 .roomBtn {
-  background-color: #03AED2;
+  background-color: #FF204E;
   color: white;
   font-size: 17px;
   font-weight: 600;
@@ -611,12 +613,12 @@ color: white;
 }
 
 .roomBtn:hover{
-  color: #03AED2;
+  color: #FF204E;
   background-color: black;
 }
 
 .roomContainer h6 {
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .roomContainer p {
@@ -631,7 +633,7 @@ color: white;
 }
 
 .carousel-control-prev-icon:hover,.carousel-control-next-icon:hover {
-  background-color: #03AED2;
+  background-color: #FF204E;
 }
 
 .guestBook {
@@ -644,7 +646,7 @@ color: white;
 }
 
 .guestBook h5{
-  color: #03AED2;
+  color: #FF204E;
   font-weight: 700;
   margin: 15px 0;
 }
@@ -674,7 +676,7 @@ color: white;
 }
 
 .bookDiv h2 {
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .bookDiv p {
@@ -690,7 +692,7 @@ input {
 .RbookDiv input, .RbookDiv select{
   width: 100%;
   padding: 14px;
-  border: 1px solid #ffb1572d;
+  border: 1px solid #ff7b9593;
   margin: 10px 0;
   outline: none;
   background: none;
@@ -699,7 +701,7 @@ input {
 /* .RbookDiv textarea{
   width: 100%;
   padding: 10px;
-  border: 1px solid #03AED2;
+  border: 1px solid #FF204E;
   border-radius: 5px;
   margin: 10px 0;
 } */
@@ -731,7 +733,7 @@ input {
 }
 
 .aboutUs h6, .aboutUs span,.gallery h6 {
-  color: #03AED2;
+  color: #FF204E;
   font-weight: 700;
 }
 
@@ -771,7 +773,7 @@ input {
   right: 20px;
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #03AED2; /* Change this to your preferred color */
+  background-color: #FF204E; /* Change this to your preferred color */
   color: white;
   border: none;
   border-radius: 100%;
@@ -783,13 +785,13 @@ input {
 
 #scrollToTopBtn:hover {
   background-color: black; /* Change this to your preferred hover color */
-  color: #03AED2;
+  color: #FF204E;
 }
 #add:hover {
   font-weight: 700;
 }
 .addh5{
-  color: #03AED2;
+  color: #FF204E;
 }
 .addh5 p{
   color: rgb(107, 106, 106);
@@ -809,7 +811,7 @@ input {
 }
 
 .phone {
-  color: #03AED2;
+  color: #FF204E;
   font-weight: 700;
   font-size: 17px;
   font-size: 18px;
@@ -842,7 +844,7 @@ input {
   padding: 10px;
   font-size: 16px;
   color: white;
-  background-color: #03AED2;
+  background-color: #FF204E;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -850,7 +852,7 @@ input {
 
 .contactForm button:hover {
   background-color: white;
-  color: #03AED2;
+  color: #FF204E;
 }
 
 .contactForm p {
@@ -898,7 +900,7 @@ input {
 /* Fade-in class for content */
 .fade-in {
   opacity: 0;
-  animation: fadeIn 1s forwards;
+  animation: fadeIn .8s forwards;
 }
 
 .fade-in:nth-child(1) {
@@ -937,12 +939,12 @@ input {
   .navbar-nav {
     background-color: white;
     gap: 10px;
-    color: #03AED2;
+    color: #FF204E;
     padding: 20px;
   }
 
   .nav-item .nav-link {
-    color: #03AED2;
+    color: #FF204E;
   }
   
   .box {
@@ -950,7 +952,7 @@ input {
   }
 
   .nav-link a {
-    color: #03AED2;
+    color: #FF204E;
   }
 
   .firstCaro img {
