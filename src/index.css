@@ -989,7 +989,7 @@ input {
 
 .serviceDiv {
   grid-template-columns: 1fr;
-  padding: 20px;
+  padding:50px 20px;
 }
 
 .rightAbout {
@@ -1010,7 +1010,7 @@ input {
 }
 
 .services {
-  padding-top: 40px;
+  padding: 50px 0;
 }
 .services h1 {
   font-size: 35px;
