@@ -44,7 +44,7 @@ const Hero = () => {
   }
   return (
     <div className="content">
-      <div className="box" style={{height:"80vh"}}>
+      <div className="box" style={{height:"100vh"}}>
         <div
           style={{
             position: "absolute",
