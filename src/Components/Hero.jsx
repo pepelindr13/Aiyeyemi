@@ -61,7 +61,7 @@ const Hero = () => {
           className="carousel slide carousel-fade "
           data-bs-ride="carousel"
         >
-          <div className="firstCaro carousel-inner">
+          <div className="firstCarou carousel-inner">
             <div className="carousel-item active" data-bs-interval="2000">
               <img src={Home1} className="d-block w-100" alt="..." />
               <div
@@ -155,7 +155,7 @@ const Hero = () => {
           </div>
           <div className="roomFlex shadow-sm">
             <div className="p-5 roomcap">
-              <h2>Crown Executive Room</h2>
+              <h2>Crown Executive</h2>
               <p>
                Business Meets Comfort in Our Executive Room, Stay Productive and Relaxed in Our Executive Accommodations!
               </p>

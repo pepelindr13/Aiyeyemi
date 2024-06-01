@@ -73,8 +73,8 @@ const Booking = () => {
   };
 
   return (
-    <div className='ourRooms'>
-      <div style={{ position: "relative", height: "80vh" }}>
+    <div>
+      <div className='box' style={{ position: "relative"}}>
         <div
           style={{
             position: "absolute",
@@ -92,39 +92,39 @@ const Booking = () => {
           data-bs-ride="carousel"
         >
           <div className="firstCaro carousel-inner">
-            <div className="carousel-item active" data-bs-interval="4000">
+            <div className="carousel-item active" data-bs-interval="2000">
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1>
+                <h1 style={{ fontSize: "50px" }}>
                   Our rooms!
                 </h1>
                 <p>HOTEL & RESORT!</p>
                 <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img src={Room2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1>
+                <h1 style={{ fontSize: "50px" }}>
                   Comfy & Luxurious Rooms
                 </h1>
                 <p>YOUR ROOM YOUR STAY!</p>
                 <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img src={Room3} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1>
+                <h1 style={{ fontSize: "50px" }}>
                   Enjoy every second.
                 </h1>
                 <p>ENJOY WITH US!</p>
@@ -134,6 +134,7 @@ const Booking = () => {
           </div>
         </div>
       </div>
+      <div><Email/></div>
       <div className="roomContainer text-center">
         <h6 style={{lineHeight:"15px"}}>
         <div className="fs-1 fw-bolder ro">Rooms</div>

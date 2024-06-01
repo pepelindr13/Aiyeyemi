@@ -13,6 +13,7 @@ import Bar from "../assets/Images/bar.jpg";
 import Ten from '../assets/Images/ten.jpg'
 import Home1 from '../assets/Images/home1.jpg'
 import Home2 from '../assets/Images/home2.jpg'
+import Email from "./Email";
 
 
 
@@ -23,7 +24,7 @@ const About = () => {
   }
   return (
     <div>
-      <div id="boxx" className="box">
+      <div className="box">
         <div
           style={{
             position: "absolute",
@@ -41,22 +42,22 @@ const About = () => {
           data-bs-ride="carousel"
         >
           <div className="firstCaro carousel-inner">
-            <div className="carousel-item active" data-bs-interval="4000">
+            <div className="carousel-item active" data-bs-interval="2000">
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1 style={{ fontSize: "50px" }}>About us!</h1>
                 <p>HOTEL & RESORT!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1 style={{ fontSize: "50px" }}>About us!</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
@@ -65,11 +66,11 @@ const About = () => {
                 </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1 style={{ fontSize: "50px" }}>About us!</h1>
                 <p>ENJOY WITH US!</p>

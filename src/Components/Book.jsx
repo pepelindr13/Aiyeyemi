@@ -81,7 +81,7 @@ const Book = () => {
             <div className="carousel-item active" data-bs-interval="4000">
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>Book Below!</h1>
                 <p>HOTEL & RESORT!</p>
@@ -92,7 +92,7 @@ const Book = () => {
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>Comfy & Luxurious Rooms</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
@@ -103,7 +103,7 @@ const Book = () => {
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp"
+                className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>Enjoy every second.</h1>
                 <p>ENJOY WITH US!</p>
