@@ -955,7 +955,7 @@ input {
     color: #FF204E;
   }
 
-  .firstCaro img {
+  .firstCaro img,.firstCarou img   {
     height: 100vh;
     filter: brightness(30%);
     object-fit: cover;
