@@ -128,7 +128,7 @@ const Hero = () => {
               Spacious and Stylish: Your Home Away from Home!. Create Lasting Memories in Our Family-Friendly Room!
               </p>
               <div>
-                <span>₦8,000/Night</span>
+                <span>₦30,000/Night</span>
                 <Link to={"/booking"}>
                   <button id="spanBtn" onClick={nav}>BOOK NOW</button>
                 </Link>
