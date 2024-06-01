@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
   }
 const Topbtn = () => {
   return (
-    <div><button className="bounce" onClick={scroll} id="scrollToTopBtn">↑ Top</button>
+    <div><button className="animate__animated animate__bounce" onClick={scroll} id="scrollToTopBtn">↑</button>
     </div>
   )
 }

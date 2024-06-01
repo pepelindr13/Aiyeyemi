@@ -73,7 +73,7 @@ const Booking = () => {
   };
 
   return (
-    <div>
+    <div className='ourRooms'>
       <div style={{ position: "relative", height: "80vh" }}>
         <div
           style={{

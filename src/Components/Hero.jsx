@@ -44,7 +44,7 @@ const Hero = () => {
   }
   return (
     <div className="content">
-      <div className="box">
+      <div className="box" style={{height:"80vh"}}>
         <div
           style={{
             position: "absolute",
@@ -62,21 +62,20 @@ const Hero = () => {
           data-bs-ride="carousel"
         >
           <div className="firstCaro carousel-inner">
-            <div className="carousel-item active" data-bs-interval="4000">
+            <div className="carousel-item active" data-bs-interval="2000">
               <img src={Home1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>
-                  Welcome to your tranquil oasis amidst the bustling city, where
-                  every stay is a journey of comfort and luxury.
+                  Welcome to your tranquil oasis amidst the bustling city.
                 </h1>
                 <p>HOTEL & RESORT!</p>
                 <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img src={About2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
@@ -84,8 +83,7 @@ const Hero = () => {
               >
                 <h1>
                   At Aiyeyemi Palace Hotel, Elevate your stay to an
-                  unforgettable experience, where every moment is crafted with
-                  care.
+                  unforgettable experience.
                 </h1>
                 <p>YOUR ROOM YOUR STAY!</p>
                 <button onClick={nav} className="bookBtn">
@@ -93,15 +91,14 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="2000">
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
                 <h1>
-                  Unwind in style at AIYEYEMI PALACE HOTEL, where every detail
-                  is designed to exceed your expectations.
+                  Unwind in style at AIYEYEMI PALACE HOTEL.
                 </h1>
                 <p>ENJOY WITH US!</p>
                 <Link to={"/booking"}>

@@ -102,7 +102,7 @@ const Email = () => {
           <option value="suite">Single Ordinary</option>
         </select>
       </div>
-      <button className='bootBtn w-25' type="submit">Book Now</button>
+      <button className='bootBtn' type="submit">Book Now</button>
     </form>
     </div>
   );

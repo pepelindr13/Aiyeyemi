@@ -99,6 +99,7 @@ const About = () => {
             hospitality. Aiyeyemi Palace Hotel offers a perfect blend of luxury,
             comfort, and impeccable service.
           </p>
+          <button onClick={nav} className='roomBtn mt-4 w-100'>Book Now</button>
         </div>
         <div>
           <img src={CEO} alt="" />
