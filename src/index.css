@@ -921,7 +921,9 @@ input {
 #contactDiv p{
   color: white;
 }
-@media(max-width:475px) {
+
+
+@media(max-width:775px) {
   input[type="text"],
   input[type="email"],
   input[type="date"]{
@@ -1121,4 +1123,11 @@ input {
 .gallery img {
   width: 100%;
 }
+
+.contactFlex {
+  justify-content: center;
+  gap: 50px;
+  padding: 100px 20px;
+}
+
 }

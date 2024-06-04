@@ -17,7 +17,7 @@ const Contact = () => {
           <button onClick={nav} className="bookBtn mt-2">BOOK ROOM</button>
         </div>
       </div>
-      <div className='d-flex contactFlex'>
+      <div className='d-flex flex-lg-row flex-column contactFlex'>
             <div>
             <ContactForm />
             </div>
@@ -33,13 +33,13 @@ const Contact = () => {
                 <div className='my-5'>
                 <h5 className='fw-bold addh5'>Phone</h5>
                 <div style={{lineHeight:"10px"}}>
-                <p>Phone 1: 08033744276</p>
-                <p>Phone 2: 08033058076</p>
+                <p><span className='fw-bold'>Phone 1:</span> 08033744276</p>
+                <p><span className='fw-bold'>Phone 2:</span> 08033058076</p>
                 </div>
                 </div>
                 <div>
                     <h5 className='fw-bold addh5'>Email</h5>
-                    <p>hotelaiyeyemipalace@gmail.com</p>
+                    <p className='fw-bold'>hotelaiyeyemipalace@gmail.com</p>
                 </div>
             </div>
       </div>

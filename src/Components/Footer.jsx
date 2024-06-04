@@ -1,54 +1,57 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className="foot w-100 overflow-hidden bg-dark text-light px-5 align-items-center ">
     <footer className="py-5">
       <div className="row">
         <div className="col-6 col-md-2 mb-3">
-          <h5 className="fs-3">Address</h5>
+          <h5 className="fs-3 fw-bold">Address</h5>
           <ul className="nav flex-column">
             <li className="nav-item mb-2">
               <a href="#" className="nav-link my-2 p-0 text-light">
-                Home
+              Find us on Google Maps<p className='text-light'>11 Paulson Odu Avenue, Omoologede Estate, Ogolonto, Ikorodu, Lagos</p>
               </a>
             </li>
             <li className="nav-item mb-2">
               <a href="#" className="nav-link my-2 p-0 text-light">
-                Features
-              </a>
-            </li>
-            <li className="nav-item mb-2">
-              <a href="#" className="nav-link my-2 p-0 text-light">
-                About
+              Find us on Google Maps<p className='text-light'>No 10 shobowale alayo akasolori estate itokin road ikorodu</p>
               </a>
             </li>
           </ul>
         </div>
 
         <div className="col-6 col-md-2 mb-3">
-          <h5 className="fs-3">Navigation</h5>
+          <h5 className="fs-3 fw-bold">Navigation</h5>
           <ul className="nav flex-column">
+            <Link to={'/'} style={{textDecoration:"none"}}>
             <li className="nav-item mb-2">
               <a href="#" className="nav-link my-2 p-0 text-light">
                 Home
               </a>
             </li>
+            </Link>
+            <Link to={'/rooms'} style={{textDecoration:"none"}}>
             <li className="nav-item mb-2">
               <a href="#" className="nav-link my-2 p-0 text-light">
                 Rooms
               </a>
             </li>
+            </Link>
+            <Link to={'/about'} style={{textDecoration:"none"}}>
             <li className="nav-item mb-2">
               <a href="#" className="nav-link my-2 p-0 text-light">
                 About
               </a>
             </li>
+            </Link>
+            <Link to={'/contact'} style={{textDecoration:"none"}}>
             <li className="nav-item mb-2">
               <a href="#" className="nav-link my-2 p-0 text-light">
                 Contact
               </a>
             </li>
+            </Link>
           </ul>
         </div>
 
