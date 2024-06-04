@@ -113,8 +113,8 @@ const Hero = () => {
         <Email />
       </div>
       <div className="featured text-center ">
-        <h6 style={{ lineHeight: "15px" }}>
-          <div className="fs-1 ro">Rooms</div>
+        <h6 className="fw-bold" style={{ lineHeight: "15px" }}>
+          <div className="fs-1 ro fw-bold">Rooms</div>
           OUR ROOMS
         </h6>
         <h1 className="mt-4">
@@ -176,7 +176,7 @@ const Hero = () => {
       </div>
       <div className="about w-100">
         <div className="">
-          <h6 style={{ lineHeight: "15px" }}>
+          <h6 className="fw-bold"  style={{ lineHeight: "15px" }}>
             <div className="fs-1 ro">About Us</div>
             ABOUT US
           </h6>
@@ -251,8 +251,8 @@ const Hero = () => {
         </div>
       </div>
       <div className="services text-center mt-5">
-        <h6 style={{ lineHeight: "15px" }}>
-          <div className="fs-1 ro">Services</div>
+        <h6 className="fw-bold"  style={{ lineHeight: "15px" }}>
+          <div className="fs-1 ro fw-bold">Services</div>
           OUR SERVICES
         </h6>
         <h1 className="mt-4">
@@ -405,7 +405,7 @@ const Hero = () => {
                         <img src={Star} alt="" />
                       </div>
                     </div>
-                    <h5 className="fw-bold mt-2">Mr Abdulsalam Says:</h5>
+                    <h5 className="fw-bold mt-2">Mrs salami Says:</h5>
                     <p>
                     The service was impeccable and the amenities exceeded our expectations.
                     </p>
@@ -465,7 +465,7 @@ const Hero = () => {
                         <img src={Star} alt="" />
                       </div>
                     </div>
-                    <h5 className="fw-bold mt-2">Mr Mahmud Says:</h5>
+                    <h5 className="fw-bold mt-2">Mrs Mahmudat Says:</h5>
                     <p>
                     We felt right at home with the friendly staff and excellent facilities.
                     </p>
@@ -525,7 +525,7 @@ const Hero = () => {
                         <img src={Star} alt="" />
                       </div>
                     </div>
-                    <h5 className="fw-bold mt-2">Mr Oreoluwa Says:</h5>
+                    <h5 className="fw-bold mt-2">Mrs Oreoluwa Says:</h5>
                     <p>
                     Exceptional service and stunning decor. We can't wait to return!
                     </p>

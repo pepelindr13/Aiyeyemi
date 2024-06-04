@@ -1,19 +1,27 @@
-import React from 'react'
-import Room1 from '../assets/Images/room1.jpg'
-import Room2 from '../assets/Images/room2.jpg'
-import Room3 from '../assets/Images/room3.jpg'
-import Star from '../assets/Images/rightarrow.png'
-import Navbar from './Navbar'
-import Tt1 from '../assets/Images/30k1.jpg'
-import Tt2 from '../assets/Images/30k2.jpg'
-import Tt3 from '../assets/Images/30k3.jpg'
-import Tf1 from '../assets/Images/25k1.jpg'
-import Tf2 from '../assets/Images/25k2.jpg'
-import Tf3 from '../assets/Images/25k3.jpg'
-import Footer from './Footer'
-import Email from './Email'
-import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from "react";
+import Room1 from "../assets/Images/room1.jpg";
+import Room2 from "../assets/Images/room2.jpg";
+import Room3 from "../assets/Images/room3.jpg";
+import Star from "../assets/Images/rightarrow.png";
+import Navbar from "./Navbar";
+import Tt1 from "../assets/Images/30k1.jpg";
+import Tt2 from "../assets/Images/30k2.jpg";
+import Tt3 from "../assets/Images/30k3.jpg";
+import Tf1 from "../assets/Images/25k1.jpg";
+import Tf2 from "../assets/Images/25k2.jpg";
+import Tf3 from "../assets/Images/25k3.jpg";
+import r3 from "../assets/Images/153.jpg";
+import r2 from "../assets/Images/152.jpg";
+import r1 from "../assets/Images/151.jpg";
+import k1 from "../assets/Images/8k1.jpg";
+import k2 from "../assets/Images/8k2.jpg";
+import k3 from "../assets/Images/8k3.jpg";
+import s1 from "../assets/Images/7k.jpg";
+import s2 from "../assets/Images/7k2.jpg";
+import Footer from "./Footer";
+import Email from "./Email";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Booking = () => {
   let navigate = useNavigate();
@@ -74,7 +82,7 @@ const Booking = () => {
 
   return (
     <div>
-      <div className='box' style={{ position: "relative"}}>
+      <div className="box" style={{ position: "relative" }}>
         <div
           style={{
             position: "absolute",
@@ -86,7 +94,7 @@ const Booking = () => {
           <Navbar />
         </div>
         <div
-          style={{ position: "absolute", width: "100%"}}
+          style={{ position: "absolute", width: "100%" }}
           id="carouselExampleCaptions"
           className="carousel slide carousel-fade "
           data-bs-ride="carousel"
@@ -98,11 +106,11 @@ const Booking = () => {
                 id="cap2"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1 style={{ fontSize: "50px" }}>
-                  Our rooms!
-                </h1>
+                <h1 style={{ fontSize: "50px" }}>Our rooms!</h1>
                 <p>HOTEL & RESORT!</p>
-                <button onClick={nav} className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">
+                  Book Now{" "}
+                </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="3000">
@@ -111,11 +119,11 @@ const Booking = () => {
                 id="cap"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1 style={{ fontSize: "50px" }}>
-                  Comfy & Luxurious Rooms
-                </h1>
+                <h1 style={{ fontSize: "50px" }}>Comfy & Luxurious Rooms</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
-                <button onClick={nav} className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">
+                  Book Now{" "}
+                </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="3000">
@@ -124,281 +132,417 @@ const Booking = () => {
                 id="cap3"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1 style={{ fontSize: "50px" }}>
-                  Enjoy every second.
-                </h1>
+                <h1 style={{ fontSize: "50px" }}>Enjoy every second.</h1>
                 <p>ENJOY WITH US!</p>
-                <button onClick={nav} className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">
+                  Book Now{" "}
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div><Email/></div>
+      <div>
+        <Email />
+      </div>
       <div className="roomContainer text-center">
-        <h6 style={{lineHeight:"15px"}}>
-        <div className="fs-1 fw-bolder ro">Rooms</div>
-        OUR ROOMS
+        <h6 className="fw-bold" style={{ lineHeight: "15px" }}>
+          <div className="fs-1 fw-bolder ro">Rooms</div>
+          OUR ROOMS
         </h6>
-        <div className='roomies text-start '>
-        <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={Tt1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Tt2} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Tt3} class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying1" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-            <div>
-              <h1 className='fw-bold'>₦30,000/<span className='fs-5'>night</span></h1>
-              <h2 className='my-4 fw-bold'>VIP Suite</h2>
-              <p>We all live in an age that belongs top the young at heart, Life that is becoming extremely fast Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque quo illum nisi dolores impedit!</p>
-              <div className='roomInfo'>
+        <div className="roomies text-start ">
+          <div
+            id="carouselExampleAutoplaying1"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={Tt1} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={Tt2} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={Tt3} class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying1"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying1"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <h1 className="fw-bold">
+              ₦30,000/<span className="fs-5">night</span>
+            </h1>
+            <h2 className="my-4 fw-bold">VIP Suite</h2>
+            <p>
+            Indulge in unparalleled luxury at the VIP Suite. This expansive space boasts a separate living area, a spa-like bathroom with a deep soaking tub, and a private balcony with breathtaking city views. Unwind in plush furnishings, enjoy top-of-the-line amenities, and experience the ultimate in personalized service.
+            </p>
+            <div className="roomInfo">
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Air Condition</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Swimming pool</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Breakfast</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Car parking</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Restaurant & Bar</span>
               </div>
-              </div>
-              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
+            <button onClick={nav} className="roomBtn">
+              Book Now
+            </button>
+          </div>
         </div>
-        <div className='roomies text-start '>
-        <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={Tf1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Tf2} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Tf3} class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-            <div>
-              <h1 className='fw-bold'>₦25,000/<span className='fs-5'>night</span></h1>
-              <h2 className='my-4 fw-bold'>Crown Executive</h2>
-              <p>We all live in an age that belongs top the young at heart, Life that is becoming extremely fast Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque quo illum nisi dolores impedit!</p>
-              <div className='roomInfo'>
+        <div className="roomies text-start ">
+          <div
+            id="carouselExampleAutoplaying2"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={Tf1} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={Tf2} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={Tf3} class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying2"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <h1 className="fw-bold">
+              ₦25,000/<span className="fs-5">night</span>
+            </h1>
+            <h2 className="my-4 fw-bold">Crown Executive</h2>
+            <p>
+            Designed for the discerning traveler, the Crown Executive Suite offers a sophisticated haven for work and relaxation. The spacious layout features a separate bedroom, a dedicated workspace with ergonomic furniture, and a luxurious bathroom with rainfall showers. 
+            </p>
+            <div className="roomInfo">
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Air Condition</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Swimming pool</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Breakfast</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Car parking</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Restaurant & Bar</span>
               </div>
-              </div>
-              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
+            <button onClick={nav} className="roomBtn">
+              Book Now
+            </button>
+          </div>
         </div>
-        <div className='roomies text-start '>
-        <div id="carouselExampleAutoplaying3" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={Room1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Room1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Room1} class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-            <div>
-              <h1 className='fw-bold'>₦15,000/<span className='fs-5'>night</span></h1>
-              <h2 className='my-4 fw-bold'>Standard Suite</h2>
-              <p>We all live in an age that belongs top the young at heart, Life that is becoming extremely fast Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque quo illum nisi dolores impedit!</p>
-              <div className='roomInfo'>
+        <div className="roomies text-start ">
+          <div
+            id="carouselExampleAutoplaying3"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={r3} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={r2} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src={r1}
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying3"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying3"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <h1 className="fw-bold">
+              ₦15,000/<span className="fs-5">night</span>
+            </h1>
+            <h2 className="my-4 fw-bold">Standard Suite</h2>
+            <p>
+            Unwind in spacious comfort at the Standard Suite. This inviting space offers ample room to relax and recharge. Featuring a comfortable living area, a plush king-sized bed, and a modern bathroom, the Standard Suite is perfect for families, friends, or those seeking a little extra space.
+            </p>
+            <div className="roomInfo">
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Air Condition</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Swimming pool</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>No Breakfast</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Car parking</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Restaurant & Bar</span>
               </div>
-              </div>
-              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
+            <button onClick={nav} className="roomBtn">
+              Book Now
+            </button>
+          </div>
         </div>
-        <div className='roomies text-start '>
-        <div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={Room1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Room1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Room1} class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-            <div>
-              <h1 className='fw-bold'>₦8,000/<span className='fs-5'>night</span></h1>
-              <h2 className='my-4 fw-bold'>Single Executive</h2>
-              <p>We all live in an age that belongs top the young at heart, Life that is becoming extremely fast Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque quo illum nisi dolores impedit!</p>
-              <div className='roomInfo'>
+        <div className="roomies text-start ">
+          <div
+            id="carouselExampleAutoplaying5"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={k1} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={k2} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={r1} class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying5"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying5"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <h1 className="fw-bold">
+              ₦8,000/<span className="fs-5">night</span>
+            </h1>
+            <h2 className="my-4 fw-bold">Single Executive</h2>
+            <p>
+            The Single Executive Room is your haven for productivity and relaxation. This efficient space features a comfortable work area with a well-lit desk, high-speed internet access, and ergonomic furniture. Relax in the plush king-sized bed and unwind with premium amenities after a long day.
+            </p>
+            <div className="roomInfo">
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Air Condition</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Swimming pool</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>No Breakfast</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Car parking</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Restaurant & Bar</span>
               </div>
-              </div>
-              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
+            <button onClick={nav} className="roomBtn">
+              Book Now
+            </button>
+          </div>
         </div>
-        <div className='roomies text-start '>
-        <div id="carouselExampleAutoplaying4" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src={Room1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Room1} class="d-block w-100" alt={Room1}/>
-    </div>
-    <div class="carousel-item">
-      <img src={Room1} class="d-block w-100" alt="..."/>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-            <div>
-              <h1 className='fw-bold'>₦7,500/<span className='fs-5'>night</span></h1>
-              <h2 className='my-4 fw-bold'>Single Ordinary</h2>
-              <p>We all live in an age that belongs top the young at heart, Life that is becoming extremely fast Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eaque quo illum nisi dolores impedit!</p>
-              <div className='roomInfo'>
+        <div className="roomies text-start ">
+          <div
+            id="carouselExampleAutoplaying4"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={s1} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={r1} class="d-block w-100" alt={Room1} />
+              </div>
+              <div class="carousel-item">
+                <img src={s2} class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying4"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying4"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div>
+            <h1 className="fw-bold">
+              ₦7,500/<span className="fs-5">night</span>
+            </h1>
+            <h2 className="my-4 fw-bold">Single Ordinary</h2>
+            <p>
+            Embrace the comfort and convenience of our Standard Room. This inviting space provides a perfect base for your city adventures. The room features a comfortable bed, a modern bathroom, and essential amenities to ensure a restful stay.
+            </p>
+            <div className="roomInfo">
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Air Condition</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Swimming pool</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>No Breakfast</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Car parking</span>
               </div>
               <div className="d-flex align-items-center">
-                <img className='rightArrow' src={Star} alt="" />
+                <img className="rightArrow" src={Star} alt="" />
                 <span>Restaurant & Bar</span>
               </div>
-              </div>
-              <button onClick={nav} className='roomBtn'>Book Now</button>
             </div>
+            <button onClick={nav} className="roomBtn">
+              Book Now
+            </button>
+          </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Booking
+export default Booking;

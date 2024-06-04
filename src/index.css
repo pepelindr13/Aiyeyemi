@@ -381,6 +381,37 @@ padding-top: 100px;
   filter: brightness(30%);
   z-index: -1; /* Ensure the background is behind the content */
 }
+.background-containerr {
+  position: relative;
+  width: 100%;
+  height: max-content;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+
+.background-containerr h1 {
+  position: relative; /* Ensure the content is positioned above the background */
+  z-index: 1;
+  font-weight: 500;
+  color: white; /* Optional: Style your content */
+}
+
+.background-containerr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://preview.colorlib.com/theme/ecoho/assets/img/gallery/items2.png');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(30%);
+  z-index: -1; /* Ensure the background is behind the content */
+}
 
 .background-container h1 {
   position: relative; /* Ensure the content is positioned above the background */
@@ -581,6 +612,10 @@ color: white;
   border-bottom: 1px solid rgb(223, 223, 223);
 }
 
+.roomies .carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
 .rightArrow {
   height: 30px;
   margin-right: 20px;
@@ -693,7 +728,7 @@ input {
 .RbookDiv input, .RbookDiv select{
   width: 100%;
   padding: 14px;
-  border: 1px solid #ff7b9593;
+  border: 1px solid #ff840086;
   margin: 10px 0;
   outline: none;
   background: none;
@@ -913,15 +948,21 @@ input {
 }
 
 #contactDiv {
-  height: 50vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
 }
 
 #contactDiv p{
   color: white;
 }
 
+.foot {
+  padding: 0 50px;
+}
 
 @media(max-width:775px) {
   input[type="text"],
@@ -1006,8 +1047,8 @@ input {
 .background-container {
   flex-direction: column;
   padding: 30px 20px;
-  justify-content: flex-start;
-  align-items: start;
+  /* justify-content: flex-start; */
+  /* align-items: start; */
   gap: 10px;
 }
 
@@ -1021,7 +1062,7 @@ input {
 .rooms {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 20px;
+  gap: 100px;
   margin-top: 30px;
 }
 

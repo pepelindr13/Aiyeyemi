@@ -84,8 +84,8 @@ const About = () => {
       </div>
       <div className="aboutUs">
         <div>
-          <h6 style={{ lineHeight: "15px" }}>
-            <div className="fs-1 ro">About Us</div>
+          <h6 className="fw-bold" style={{ lineHeight: "15px" }}>
+            <div className="fs-1 ro fw-bold">About Us</div>
             About Us
           </h6>
           <p>
@@ -107,8 +107,8 @@ const About = () => {
         </div>
       </div>
       <div className="gallery">
-      <h6 style={{ lineHeight: "15px",textAlign:"center" }}>
-            <div className="fs-1 ro">Gallery</div>
+      <h6 className="fw-bold"  style={{ lineHeight: "15px",textAlign:"center" }}>
+            <div className="fs-1 ro fw-bold">Gallery</div>
             Gallery
           </h6>
           <div className="galleryImages">

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
-    <div className="foot w-100 overflow-hidden bg-dark text-light px-5 align-items-center ">
+    <div className="foot w-100 overflow-hidden bg-dark text-light align-items-center ">
     <footer className="py-5">
       <div className="row">
         <div className="col-6 col-md-2 mb-3">
@@ -86,7 +86,7 @@ const Footer = () => {
               </label>
               {/* <input id="newsletter1" type="text" className="form-control" placeholder="Email address"> */}
               <button className="  bookBtn" type="button">
-                Subscribe
+                Book Now!
               </button>
             </div>
           </form>
