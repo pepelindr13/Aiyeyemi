@@ -42,7 +42,7 @@ const Book = () => {
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
-        alert("Booking request sent successfully!");
+        alert("Booking request sent successfully! contact 08033744276 for more information on your booking");
       })
       .catch((error) => {
         console.error("FAILED...", error);
