@@ -81,6 +81,7 @@ const ContactForm = () => {
         <div>
           <div><label>Message:</label></div>
           <textarea
+          style={{width:"100%"}}
             name="message"
             value={formData.message}
             onChange={handleChange}
