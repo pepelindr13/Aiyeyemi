@@ -184,10 +184,13 @@ const Hero = () => {
             Unwind A Hotel Booking Agency at <span>Aiyeyemi Palace</span>
           </h1>
           <p className="my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sequi
-            consequuntur maiores quia. Quam asperiores dignissimos esse sequi
-            tempora? Saepe ab quam fugit! Quod, sit! Esse earum recusandae non
-            tempora.
+           <span>Mr. Aiyeyemi's</span> passion for hospitality is
+            evident in every aspect of our hotel, from the elegant design of our
+            rooms to the exceptional service provided by our staff. Under his
+            leadership, Aiyeyemi Palace Hotel continues to set new standards in
+            the industry, ensuring every guest experiences the pinnacle of
+            hospitality. Aiyeyemi Palace Hotel offers a perfect blend of luxury,
+            comfort, and impeccable service.
           </p>
           <div className="aboutSect">
             <div className="aboutSec">

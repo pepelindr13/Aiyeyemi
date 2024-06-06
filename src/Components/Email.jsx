@@ -29,7 +29,7 @@ const Email = () => {
       room_type: formData.roomType,
     };
 
-    emailjs.send('service_95ilu46', 'template_b0uh22b', templateParams, 'NVWsjfY94u8ldeolg')
+    emailjs.send('service_ap0xxkn', 'template_b0uh22b', templateParams, 'NVWsjfY94u8ldeolg')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert('Booking request sent successfully!');
@@ -41,6 +41,7 @@ const Email = () => {
 
     setFormData({
       name: '',
+      phone:'',
       email: '',
       checkInDate: '',
       checkOutDate: '',
@@ -51,6 +52,17 @@ const Email = () => {
   return (
     <div className='RBooking'>
       <form onSubmit={sendEmail} className='w-100'>
+      <div className='w-100'>
+        <label>Phone No:</label>
+        <input
+        placeholder='Phone number'
+          type="number"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          required
+        />
+      </div>
       <div className='w-100'>
         <label>Email:</label>
         <input

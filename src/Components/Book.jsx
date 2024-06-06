@@ -12,6 +12,7 @@ const Book = () => {
     checkInDate: "",
     checkOutDate: "",
     roomType: "",
+    phone:""
   });
 
   const handleChange = (e) => {
@@ -27,6 +28,7 @@ const Book = () => {
 
     const templateParams = {
       name: formData.name,
+      phone: formData.phone,
       email: formData.email,
       check_in_date: formData.checkInDate,
       check_out_date: formData.checkOutDate,
@@ -35,7 +37,7 @@ const Book = () => {
 
     emailjs
       .send(
-        "service_95ilu46",
+        "service_ap0xxkn",
         "template_b0uh22b",
         templateParams,
         "NVWsjfY94u8ldeolg"
@@ -79,33 +81,33 @@ const Book = () => {
         >
           <div id="bookCaro" className="firstCaro carousel-inner">
             <div className="carousel-item active" data-bs-interval="4000">
-              <img src={Pool} className="d-block w-100" alt="..." />
+              <img src="http://localhost:5173/src/assets/Images/25k1.jpg" className="d-block w-100" alt="..." />
               <div
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1>Book Below!</h1>
+                <h1 style={{fontSize:"50px"}}>Book Below!</h1>
                 <p>HOTEL & RESORT!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
-              <img src={Pool} className="d-block w-100" alt="..." />
+              <img src="" className="d-block w-100" alt="..." />
               <div
                 id="cap"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1>Comfy & Luxurious Rooms</h1>
+                <h1 style={{fontSize:"50px"}}>Comfy & Luxurious Rooms</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="4000">
-              <img src={Pool} className="d-block w-100" alt="..." />
+              <img src="http://localhost:5173/src/assets/Images/25k1.jpg" className="d-block w-100" alt="..." />
               <div
                 id="cap3"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
-                <h1>Enjoy every second.</h1>
+                <h1 style={{fontSize:"50px"}}>Enjoy every second.</h1>
                 <p>ENJOY WITH US!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
@@ -179,6 +181,17 @@ const Book = () => {
               required
             />
           </div>
+          <div className='w-100'>
+        <label>Phone No:</label>
+        <input
+        placeholder='Phone number'
+          type="number"
+          name="phone"
+          value={formData.phone}
+          onChange={handleChange}
+          required
+        />
+      </div>
           <button className="bookBtn py-3 w-100 mt-4" type="submit">
             Book Now
           </button>

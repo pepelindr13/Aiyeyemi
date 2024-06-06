@@ -1,19 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Images/logo_transparent.png";
+import DelayedLink from "./DelayedLink";
 const Navbar = () => {
   return (
     <div className="px-3">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex justify-content-space-between">
-        <Link to={'/'} style={{textDecoration: "none"}}>
+        <DelayedLink to={'/'} style={{textDecoration: "none"}}>
         <div className="navbar-brand">
         <a className="fw-bolder" href="#">
             AIYEYEMI <br />
             PALACE
           </a>
         </div>
-        </Link>
+        </DelayedLink>
             <div className="navbar-toggler hamburger text-light"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown"
@@ -28,39 +29,39 @@ const Navbar = () => {
         </div>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav w-100 d-flex text-end">
-            <Link style={{textDecoration:"none"}} to={'/'}>
+            <DelayedLink style={{textDecoration:"none"}} to={'/'}>
             <li className="nav-item">
               <a
               id="navLink"
-                className="nav-link active fw-bold "
+                className="nav-link active fw-bold  text-decoration-none"
                 aria-current="page"
                 href="#"
               >
                 HOME 
               </a>
             </li>
-            </Link>
-            <Link style={{textDecoration:"none"}} to={'/rooms'}>
+            </DelayedLink>
+            <DelayedLink style={{textDecoration:"none"}} to={'/rooms'}>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 ROOMS
               </a>
             </li>
-            </Link>
-            <Link to={'/about'} style={{textDecoration:"none"}}>
+            </DelayedLink>
+            <DelayedLink to={'/about'} style={{textDecoration:"none"}}>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 ABOUT
               </a>
             </li>
-            </Link>
-            <Link to={'/contact'} style={{textDecoration:"none"}}>
+            </DelayedLink>
+            <DelayedLink to={'/contact'} style={{textDecoration:"none"}}>
             <li className="nav-item">
               <a className="nav-link fw-bold" href="#">
                 CONTACT
               </a>
             </li>
-            </Link>
+            </DelayedLink>
           </ul>
         </div>
       </nav>
