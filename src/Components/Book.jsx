@@ -4,6 +4,9 @@ import Navbar from "./Navbar";
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import Footer from "./Footer";
+import Room1 from "../assets/Images/room1.jpg";
+import Room2 from "../assets/Images/room2.jpg";
+import Room3 from "../assets/Images/room3.jpg";
 
 const Book = () => {
   const [formData, setFormData] = useState({
@@ -80,8 +83,8 @@ const Book = () => {
           data-bs-ride="carousel"
         >
           <div id="bookCaro" className="firstCaro carousel-inner">
-            <div className="carousel-item active" data-bs-interval="4000">
-              <img src="http://localhost:5173/src/assets/Images/25k1.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-item active" data-bs-interval="2500">
+              <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
               >
@@ -90,8 +93,8 @@ const Book = () => {
                 <button className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
-              <img src="" className="d-block w-100" alt="..." />
+            <div className="carousel-item" data-bs-interval="2500">
+              <img src={Room2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
@@ -101,8 +104,8 @@ const Book = () => {
                 <button className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
-              <img src="http://localhost:5173/src/assets/Images/25k1.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-item" data-bs-interval="2500">
+              <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
                 className="carousel-caption animate__animated animate__slideInUp fade-in"
