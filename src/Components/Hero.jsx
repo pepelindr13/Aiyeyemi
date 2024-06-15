@@ -34,12 +34,15 @@ import Cus3 from '../assets/Images/cus3.jpg'
 import Cus4 from '../assets/Images/cus4.jpg'
 import Cus5 from '../assets/Images/cus5.jpg'
 import Topbtn from "./Topbtn";
-
+import Loader from './FullScreenLoader'
 
 const Hero = () => {
 
   let navigate = useNavigate();
   function nav() {
+    setTimeout(() => {
+      navigate("/Loader")
+    }, 4000);
     navigate("/booking");
   }
   return (
