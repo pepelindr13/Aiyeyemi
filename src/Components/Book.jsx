@@ -91,7 +91,6 @@ const Book = () => {
               >
                 <h1 style={{fontSize:"40px"}}>Book Below!</h1>
                 <p>HOTEL & RESORT!</p>
-                <button className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2500">
@@ -102,7 +101,6 @@ const Book = () => {
               >
                 <h1 style={{fontSize:"40px"}}>Comfy & Luxurious Rooms</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
-                <button className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2500">
@@ -113,7 +111,6 @@ const Book = () => {
               >
                 <h1 style={{fontSize:"40px"}}>Enjoy every second.</h1>
                 <p>ENJOY WITH US!</p>
-                <button className="bookBtn">Book Now </button>
               </div>
             </div>
           </div>
