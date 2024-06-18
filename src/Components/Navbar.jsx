@@ -4,15 +4,21 @@ import Logo from "../assets/Images/logo_transparent.png";
 import DelayedLink from "./DelayedLink";
 const Navbar = () => {
   return (
-    <div className="px-3">
+    <div className="px-3 px-lg-5">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid d-flex justify-content-space-between">
         <DelayedLink to={'/'} style={{textDecoration: "none"}}>
-        <div className="navbar-brand">
-        <a className="fw-bolder" href="#">
-            AIYEYEMI <br />
+        <div className="navbar-brand text-center">
+          <div>
+          <a className="fw-bolder" href="#">
+            AIYEYEMI 
+          </a>
+          </div>
+          <div>
+          <a className="fw-bolder" href="#">
             PALACE
           </a>
+          </div>
         </div>
         </DelayedLink>
             <div className="navbar-toggler hamburger text-light"
@@ -28,7 +34,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav w-100 d-flex text-end">
+          <ul className="navbar-nav w-100 d-flex p-2 p-lg-0 text-start">
             <DelayedLink style={{textDecoration:"none"}} to={'/'}>
             <li className="nav-item">
               <a

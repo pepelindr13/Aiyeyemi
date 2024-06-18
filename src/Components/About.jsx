@@ -46,7 +46,7 @@ const About = () => {
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
                 <h1 style={{ fontSize: "50px" }}>About us!</h1>
                 <p>HOTEL & RESORT!</p>
@@ -57,7 +57,7 @@ const About = () => {
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
                 <h1 style={{ fontSize: "50px" }}>About us!</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
@@ -70,7 +70,7 @@ const About = () => {
               <img src={Pool} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
                 <h1 style={{ fontSize: "50px" }}>About us!</h1>
                 <p>ENJOY WITH US!</p>

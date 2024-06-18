@@ -40,9 +40,6 @@ const Hero = () => {
 
   let navigate = useNavigate();
   function nav() {
-    setTimeout(() => {
-      navigate("/Loader")
-    }, 4000);
     navigate("/booking");
   }
   return (
@@ -69,7 +66,7 @@ const Hero = () => {
               <img src={Home1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce fadeIn"
               >
                 <h1>
                   Welcome to your tranquil oasis amidst the bustling city.
@@ -82,10 +79,10 @@ const Hero = () => {
               <img src={About2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce fadeIn"
               >
                 <h1>
-                  At Aiyeyemi Palace Hotel, Elevate your stay to an
+                  At AIYEYEMI PALACE HOTEL, elevate your stay to an
                   unforgettable experience.
                 </h1>
                 <p>YOUR ROOM YOUR STAY!</p>
@@ -98,7 +95,7 @@ const Hero = () => {
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce fadeIn"
               >
                 <h1>
                   Unwind in style at AIYEYEMI PALACE HOTEL.
@@ -117,8 +114,7 @@ const Hero = () => {
       </div>
       <div className="featured text-center ">
         <h6 className="fw-bold" style={{ lineHeight: "15px" }}>
-          <div className="fs-1 ro fw-bold">Rooms</div>
-          OUR ROOMS
+          <div className="fs-1 ro fw-bold">Our Rooms</div>
         </h6>
         <h1 className="mt-4">
           Feat<span className="rse">ured Roo</span>ms
@@ -138,7 +134,7 @@ const Hero = () => {
               </div>
             </div>
             <div>
-              <img className="h-100" src={Tt1} alt="" />
+              <img src={Tt1} alt="" />
             </div>
           </div>
           <div className="roomFlex shadow-sm">
@@ -168,7 +164,7 @@ const Hero = () => {
               </div>
             </div>
             <div>
-              <img style={{ height: "100%" }} src={Room1} alt="" />
+              <img src={Room1} alt="" />
             </div>
           </div>
         </div>
@@ -177,12 +173,17 @@ const Hero = () => {
         <div className=" bookusBkg"></div>
         <div></div>
       </div>
+        <div className="aboutContainer">
+          <div className="abt text-center">
+          <h6 className="fw-bold" style={{ lineHeight: "15px" }}>
+          <h1 className="fs-1 ro fw-bold">About Us</h1>
+        </h6>
+        <h1>
+          Lear<span className="rse">n Abou</span>t Us
+        </h1>
+          </div>
       <div className="about w-100">
         <div className="">
-          <h6 className="fw-bold"  style={{ lineHeight: "15px" }}>
-            <div className="fs-1 ro">About Us</div>
-            ABOUT US
-          </h6>
           <h1 className="my-4">
             Unwind A Hotel Booking Agency at <span>Aiyeyemi Palace</span>
           </h1>
@@ -256,10 +257,10 @@ const Hero = () => {
           </div>
         </div>
       </div>
+        </div>
       <div className="services text-center mt-5">
-        <h6 className="fw-bold"  style={{ lineHeight: "15px" }}>
-          <div className="fs-1 ro fw-bold">Services</div>
-          OUR SERVICES
+        <h6 className="fw-bold">
+          <div className="fs-1 ro fw-bold">Our Services</div>
         </h6>
         <h1 className="mt-4">
           Explore <span className="rse">Our Hotel</span> Services
@@ -314,8 +315,8 @@ const Hero = () => {
           <img src="https://preview.colorlib.com/theme/ecoho/assets/img/gallery/items2.png" alt="" />
         </div>
         <div>
-          <h6>BEST PLACE TO BE</h6>
-          <h1>
+          <h6 className="fs-1">BEST PLACE TO BE</h6>
+          <h1 className="fs-3">
             Find the Best Hotel for Your <br />
             Next Vacation
           </h1>
@@ -325,16 +326,15 @@ const Hero = () => {
         </div>
       </div>
       <div className="guestBook">
-        <h5
+        <h1
           style={{
-            lineHeight: "15px",
             textAlign: "center",
             fontWeight: "bolder",
           }}
         >
-          <div className="fs-1 ro">Guestbook</div>
-          WHAT OUR CUSTOMERS SAY
-        </h5>
+          <h1 className="fs-1 ro fw-bold">Guestbook</h1>
+          WHAT O<span className="rse">UR CUSTOMER</span>S SAY
+        </h1>
         <div id="carouselExampleIndicators" class="carousel slide paddedCaro">
           <div class="carousel-indicators">
             <button

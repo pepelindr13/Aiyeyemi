@@ -51,7 +51,7 @@ const Email = () => {
 
   return (
     <div className='RBooking'>
-      <form onSubmit={sendEmail} className='w-100'>
+      <form onSubmit={sendEmail} className='w-100 px-lg-5 px-2'>
       <div className='w-100'>
         <label>Phone No:</label>
         <input
@@ -75,7 +75,7 @@ const Email = () => {
         />
       </div>
       <div className='w-100'>
-        <label>Check-In Date:</label>
+        <label>Check-In Date:</label> 
         <input
         placeholder='Check In'
           type="date"

@@ -102,9 +102,12 @@ position: relative;
   
 }
 
+.navbar-brand {
+  line-height: 19px;
+}
+
 .navbar-brand a{
-  line-height: 20px;
-  color: white;
+  color: rgba(255, 255, 255, 0.884);
   text-decoration: none;
 }
 
@@ -144,14 +147,7 @@ position: relative;
 
 
 
-/* #cap,#cap2,#cap3 {
-position: absolute;
-bottom: 150px;
-/* width: 600px; */
-/* text-align: start; */
-/* text-transform: uppercase; */
-/* color: wheat; */
-/* }  */
+
 #box .carousel-caption {
   transform: translateY(-120px);
 
@@ -211,10 +207,14 @@ margin-bottom: 40px;
 .about {
 display: grid;
 grid-template-columns: 1fr 1fr;
-padding: 100px 100px;
+padding: 50px 100px;
 gap: 50px;
 align-items: center;
 /* border-bottom: 1px solid black; */
+}
+
+.aboutContainer {
+  padding: 100px 0;
 }
 
 .about img {
@@ -443,7 +443,7 @@ background-color: rgba(241, 241, 241, 0.692);
   margin-top: 100px;
 }
 
-.featured h1 {
+.featured h1, .abt h1 {
   font-size: 60px;
   font-weight: 100;
 }
@@ -490,7 +490,7 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 
 .roomcap {
-  height: 300px;
+  height: max-content;
 }
 .rooms img {
   object-fit: cover;
@@ -517,7 +517,11 @@ background-color: rgba(241, 241, 241, 0.692);
   background: #302939;
   display: flex;
   z-index: 5000;
-  padding: 0 50px;
+  /* padding: 0 50px; */
+}
+
+#month {
+  color: rgba(255, 255, 255, 0.664);
 }
 
 .RBooking input {
@@ -614,7 +618,7 @@ color: white;
 }
 
 .roomies .carousel-item img {
-  height: 300px;
+  height: 500px;
   object-fit: cover;
 }
 .rightArrow {
@@ -751,8 +755,13 @@ input {
   height: 100vh;
 }
 
-#bookCaro .carousel-caption{
-  transform: translateY(-150px);
+/* #bookCaro .carousel-caption{
+  transform: translateY(-200px);
+} */
+
+#caption,#caption2,#caption3 {
+  position: absolute;
+  bottom: 180px;
 }
 
 .paddedCaro {
@@ -896,6 +905,10 @@ input {
   text-align: center;
   font-size: 16px;
   color: green;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
 }
 
 /* Fade-in animation */
@@ -1057,18 +1070,15 @@ input {
     object-fit: cover;
   }
 
-  .carousel-caption {
-    transform: translateY(-200px);
-  }
   
   
-#bookCaro .carousel-caption{
+/* #bookCaro .carousel-caption{
   transform: translateY(-300px);
 }
 
 #boxx .carousel-caption{
   transform: translateY(-250px);
-}
+} */
   
 
   .carousel-caption h1 {
@@ -1090,6 +1100,11 @@ input {
 .rightAbout {
   grid-template-columns: 1fr;
 }
+
+#cap,#cap2,#cap3 {
+position: absolute;
+bottom: 200px;
+/* } 
 
 .serviceDiv div {
  background-color: whitesmoke;
@@ -1221,6 +1236,10 @@ input {
   justify-content: center;
   gap: 50px;
   padding: 100px 20px;
+}
+
+.foot {
+  padding: 0 20px;
 }
 
 }

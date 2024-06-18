@@ -86,9 +86,10 @@ const Book = () => {
             <div className="carousel-item active" data-bs-interval="2500">
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
+                id="caption"
               >
-                <h1 style={{fontSize:"50px"}}>Book Below!</h1>
+                <h1 style={{fontSize:"40px"}}>Book Below!</h1>
                 <p>HOTEL & RESORT!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
@@ -96,10 +97,10 @@ const Book = () => {
             <div className="carousel-item" data-bs-interval="2500">
               <img src={Room2} className="d-block w-100" alt="..." />
               <div
-                id="cap"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                id="caption2"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
-                <h1 style={{fontSize:"50px"}}>Comfy & Luxurious Rooms</h1>
+                <h1 style={{fontSize:"40px"}}>Comfy & Luxurious Rooms</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
@@ -107,10 +108,10 @@ const Book = () => {
             <div className="carousel-item" data-bs-interval="2500">
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
-                id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                id="caption3"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
-                <h1 style={{fontSize:"50px"}}>Enjoy every second.</h1>
+                <h1 style={{fontSize:"40px"}}>Enjoy every second.</h1>
                 <p>ENJOY WITH US!</p>
                 <button className="bookBtn">Book Now </button>
               </div>
