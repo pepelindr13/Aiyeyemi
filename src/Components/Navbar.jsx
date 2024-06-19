@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/Images/logo_transparent.png";
 import DelayedLink from "./DelayedLink";
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="px-3 px-lg-5">
@@ -43,7 +45,7 @@ const Navbar = () => {
                 aria-current="page"
                 href="#"
               >
-                HOME 
+                HOME
               </a>
             </li>
             </DelayedLink>

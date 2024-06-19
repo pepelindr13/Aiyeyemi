@@ -117,7 +117,7 @@ const Hero = () => {
           <div className="fs-1 ro fw-bold">Our Rooms</div>
         </h6>
         <h1 className="mt-4">
-          Feat<span className="rse">ured Roo</span>ms
+          Feat<span id="rse">ured Roo</span>ms
         </h1>
         <div className="rooms">
           <div className="roomFlex shadow-sm">
@@ -175,19 +175,19 @@ const Hero = () => {
       </div>
         <div className="aboutContainer">
           <div className="abt text-center">
-          <h6 className="fw-bold" style={{ lineHeight: "15px" }}>
-          <h1 className="fs-1 ro fw-bold">About Us</h1>
+          <h6 className="fw-bold">
+          <h1 className="fs-1 ro fw-bold">About</h1>
         </h6>
         <h1>
-          Lear<span className="rse">n Abou</span>t Us
+          Ab<span id="rse">out</span> Us
         </h1>
           </div>
       <div className="about w-100">
         <div className="">
-          <h1 className="my-4">
+          <h1>
             Unwind A Hotel Booking Agency at <span>Aiyeyemi Palace</span>
           </h1>
-          <p className="my-4">
+          <p className="my-3">
            <span>Mr. Aiyeyemi's</span> passion for hospitality is
             evident in every aspect of our hotel, from the elegant design of our
             rooms to the exceptional service provided by our staff. Under his
@@ -263,7 +263,7 @@ const Hero = () => {
           <div className="fs-1 ro fw-bold">Our Services</div>
         </h6>
         <h1 className="mt-4">
-          Explore <span className="rse">Our Hotel</span> Services
+          Explore <span id="rse">Our Hotel</span> Services
         </h1>
         <div className="serviceDiv">
           <div className="shadow-sm bg-light">
@@ -333,7 +333,7 @@ const Hero = () => {
           }}
         >
           <h1 className="fs-1 ro fw-bold">Guestbook</h1>
-          WHAT O<span className="rse">UR CUSTOMER</span>S SAY
+          WHAT O<span id="rse">UR CUSTOMER</span>S SAY
         </h1>
         <div id="carouselExampleIndicators" class="carousel slide paddedCaro">
           <div class="carousel-indicators">

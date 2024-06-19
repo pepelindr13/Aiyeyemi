@@ -149,19 +149,23 @@ position: relative;
 
 
 #box .carousel-caption {
-  transform: translateY(-120px);
+  /* transform: translateY(-120px); */
+  position: absolute;
+  top: 40vh;
 
 }
 
 .carousel-caption {
-  transform: translateY(-40px);
+  position: absolute;
+  top: 40vh;
 }
 #boxx{
   height: 100vh;
 }
 
 #boxx .carousel-caption{
-  transform: translateY(-150px);
+  position: absolute;
+  bottom: 40vh;
 }
 #boxx img {
   height: 100vh;
@@ -498,7 +502,7 @@ background-color: rgba(241, 241, 241, 0.692);
   width: 100%;
 }
 
-.rse {
+#rse {
   border-bottom: 1px solid black;
   padding-bottom: 10px;
 
@@ -734,10 +738,10 @@ input {
 .RbookDiv input, .RbookDiv select{
   width: 100%;
   padding: 14px;
-  border: 1px solid #ff840086;
+  border: 1px solid #ff8400be;
   margin: 10px 0;
   outline: none;
-  background: none;
+  background: transparent;
 }
 
 /* .RbookDiv textarea{
@@ -760,10 +764,6 @@ input {
   transform: translateY(-200px);
 } */
 
-#caption,#caption2,#caption3 {
-  position: absolute;
-  bottom: 180px;
-}
 
 .paddedCaro {
   padding: 0 140px;
@@ -912,6 +912,18 @@ input {
   filter: invert(1);
 }
 
+.underline{
+  text-decoration: underline;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+}
+.no-underline{
+  text-decoration: none;
+  color: white;
+  /* font-weight: 300; */
+}
+
 /* Fade-in animation */
 @keyframes fadeIn {
   to {
@@ -1029,6 +1041,11 @@ input {
   }
 }
 
+#caption,#caption2,#caption3 {
+  position: absolute;
+  top: 40vh;
+}
+
 
 @media(max-width:775px) {
   input[type="text"],
@@ -1047,7 +1064,7 @@ input {
   }
 
   .navbar-nav {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.822);
     gap: 10px;
     color: #FF8300;
     padding: 20px;

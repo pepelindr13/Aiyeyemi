@@ -50,7 +50,7 @@ const About = () => {
               >
                 <h1 style={{ fontSize: "50px" }}>About us!</h1>
                 <p>HOTEL & RESORT!</p>
-                <button className="bookBtn">Book Now </button>
+                <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2000">

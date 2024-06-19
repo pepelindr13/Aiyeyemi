@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 import Tt1 from "../assets/Images/30k1.jpg";
 import Tt2 from "../assets/Images/30k2.jpg";
 import Tt3 from "../assets/Images/30k3.jpg";
-import Tf1 from "../assets/Images/25k1.jpg";
+// import Tf1 from "../assets/Images/25K1.jpg";
 import Tf2 from "../assets/Images/25k2.jpg";
 import Tf3 from "../assets/Images/25k3.jpg";
 import r3 from "../assets/Images/153.jpg";
@@ -235,7 +235,7 @@ const Booking = () => {
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src={Tf1} class="d-block w-100" alt={Room1} />
+                <img src={Tf2} class="d-block w-100" alt={Room1} />
               </div>
               <div class="carousel-item">
                 <img src={Tf2} class="d-block w-100" alt={Room1} />

@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import Room1 from "../assets/Images/room1.jpg";
 import Room2 from "../assets/Images/room2.jpg";
 import Room3 from "../assets/Images/room3.jpg";
+import Home2 from '../assets/Images/home2.jpg'
 
 const Book = () => {
   const [formData, setFormData] = useState({
