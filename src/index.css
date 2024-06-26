@@ -61,8 +61,8 @@ position: relative;
   font-family: 'Lato', sans-serif;
 }
 
-.nav-item a:hover {
-  color: #FF8300;
+.nav-item:hover {
+  color: #d39148;
 }
 
 .nav-link {
@@ -112,13 +112,16 @@ position: relative;
 }
 
 #navLink{
-  color:   #FF8300 ;
+  color:   #d39148 ;
 }
+
+
 
 .nav-item {
   font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
   width: 100%;
-  color: white;
 }
 
 #navLink:hover{
@@ -140,7 +143,7 @@ position: relative;
 }
 
 .booking h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   color: white;
 }
@@ -172,7 +175,7 @@ position: relative;
 }
 
 .carousel-caption h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
   color: white;
 }
@@ -196,15 +199,15 @@ margin-bottom: 40px;
 
 .bookBtn {
   background-color: transparent;
-  color: #FF8300 ;
-  border: 1px solid #FF8300 ;
+  color: #d39148 ;
+  border: 1px solid #d39148 ;
   padding: 13px 13px 10px 13px;
   border-radius: 4px;
   font-weight: 600;
 }
 
 .bookBtn:hover {
-  background-color: #FF8300 ;
+  background-color: #d39148 ;
   color: white;
 }
 
@@ -236,13 +239,13 @@ align-items: center;
 .about h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #FF8300;
+  color: #d39148;
 }
 
 .about h6 {
   font-size: 14px;
   font-weight: 700;
-  color: #FF8300;
+  color: #d39148;
 }
 
 .aboutSec{
@@ -259,16 +262,16 @@ align-items: center;
 }
 
 .bookBtn2 {
-  background-color: #FF8300;
+  background-color: #d39148;
   color: white;
-  border: 1px solid #FF8300;
+  border: 1px solid #d39148;
   padding: 13px 13px 10px 13px;
   border-radius: 4px;
   
 }
 
 .aboutSec:hover {
-  background-color: #FF8300;
+  background-color: #d39148;
   transition: 1s ease-in-out;
 }
 
@@ -306,7 +309,7 @@ align-items: center;
 
 
 .about h6 {
-  color: #FF8300;
+  color: #d39148;
   font-weight: 700;
   font-size: 17px;
 }
@@ -318,7 +321,7 @@ padding-top: 100px;
 }
 
 .services h4, .services h6, .featured h6 {
-  color: #FF8300;
+  color: #d39148;
 }
 
 .services h6, .featured h6 {
@@ -429,7 +432,7 @@ padding-top: 100px;
   position: relative; /* Ensure the content is positioned above the background */
   z-index: 1;
   font-weight: 900;
-  color: #FF8300; 
+  color: #d39148; 
   margin-bottom: 20px;
 }
 
@@ -456,8 +459,8 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 
 .rooms button {
-  background:#FF8300;
-  border: 1px solid #FF8300;
+  background:#d39148;
+  border: 1px solid #d39148;
   font-size: 12px;
   color: white;
   margin-left: 20px;
@@ -465,13 +468,13 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 #spanBtn:hover{
   background-color: white;
-  color: #FF8300;
+  color: #d39148;
   transition: .5s ease-in-out;
   border: none;
 }
 
 .rooms span {
-  color: #FF8300;
+  color: #d39148;
   font-weight: 700;
   font-size: 18px;
   font-family: 'Playfair Display', serif;
@@ -532,7 +535,7 @@ background-color: rgba(241, 241, 241, 0.692);
   padding: 10px 0;
   background: transparent;
   border: none;
-  border-bottom:1px solid  #FF8300;
+  border-bottom:1px solid  #d39148;
   color: white;
   min-width: 100%;
   font-size: 17px;
@@ -542,7 +545,7 @@ background-color: rgba(241, 241, 241, 0.692);
 
 
 .RBooking label {
- color: #FF8300;
+ color: #d39148;
  font-weight: 700;
  margin-bottom: 5px;
 }
@@ -550,7 +553,7 @@ background-color: rgba(241, 241, 241, 0.692);
 
 .RBooking option {
   width: 100%;
-  background-color: #FF8300;
+  background-color: #d39148;
   font-size: 17px;
 outline: none;
 }
@@ -561,7 +564,7 @@ outline: none;
   width: 100%;
   background: none;
   border: none;
-  border-bottom:1px solid #FF8300;
+  border-bottom:1px solid #d39148;
   color: white;
   font-size: 17px;
   outline: none;
@@ -575,14 +578,14 @@ outline: none;
 .bootBtn {
   width: 50%;
   background-color: transparent;
-  color: #FF8300;
-  border: 1px solid #FF8300;
+  color: #d39148;
+  border: 1px solid #d39148;
   padding: 10px 0;
 }
 
 .bootBtn:hover {
   color: white;
-  background-color: #FF8300;
+  background-color: #d39148;
 }
 
 .roomContainer {
@@ -638,7 +641,7 @@ color: white;
 }
 
 .roomies h1 {
-  color: #FF8300;
+  color: #d39148;
 }
 
 .roomimg {
@@ -648,7 +651,7 @@ color: white;
 }
 
 .roomBtn {
-  background-color: #FF8300;
+  background-color: #d39148;
   color: white;
   font-size: 17px;
   font-weight: 600;
@@ -658,12 +661,12 @@ color: white;
 }
 
 .roomBtn:hover{
-  color: #FF8300;
+  color: #d39148;
   background-color: black;
 }
 
 .roomContainer h6 {
-  color: #FF8300;
+  color: #d39148;
 }
 
 .roomContainer p {
@@ -678,11 +681,16 @@ color: white;
 }
 
 .carousel-control-prev-icon:hover,.carousel-control-next-icon:hover {
-  background-color: #FF8300;
+  background-color: #d39148;
 }
 
 .guestBook {
   padding: 100px 10px;
+}
+
+.guestBook h1{
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .stars img {
@@ -691,7 +699,7 @@ color: white;
 }
 
 .guestBook h5{
-  color: #FF8300;
+  color: #d39148;
   font-weight: 700;
   margin: 15px 0;
 }
@@ -722,7 +730,7 @@ color: white;
 }
 
 .bookDiv h2 {
-  color: #FF8300;
+  color: #d39148;
 }
 
 .bookDiv p {
@@ -738,7 +746,7 @@ input {
 .RbookDiv input, .RbookDiv select{
   width: 100%;
   padding: 14px;
-  border: 1px solid #ff8400be;
+  border: 1px solid #ff8400;
   margin: 10px 0;
   outline: none;
   background: transparent;
@@ -747,7 +755,7 @@ input {
 /* .RbookDiv textarea{
   width: 100%;
   padding: 10px;
-  border: 1px solid #FF8300;
+  border: 1px solid #d39148;
   border-radius: 5px;
   margin: 10px 0;
 } */
@@ -772,7 +780,7 @@ input {
 .aboutUs {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding:50px 100px;
+  padding:100px 100px;
   gap: 100px;
   align-items: center;
   background-color: rgb(240, 240, 240);
@@ -780,7 +788,7 @@ input {
 }
 
 .aboutUs h6, .aboutUs span,.gallery h6 {
-  color: #FF8300;
+  color: #d39148;
   font-weight: 700;
 }
 
@@ -788,7 +796,7 @@ input {
  margin-top: 40px;
   font-weight: 500;
   font-size: 18px;
-  color: rgb(107, 106, 106);
+  color: rgb(56, 56, 56);
 
 }
 .aboutUs img {
@@ -820,7 +828,7 @@ input {
   right: 20px;
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #FF8300; /* Change this to your preferred color */
+  background-color: #d39148; /* Change this to your preferred color */
   color: white;
   border: none;
   border-radius: 100%;
@@ -832,13 +840,13 @@ input {
 
 #scrollToTopBtn:hover {
   background-color: black; /* Change this to your preferred hover color */
-  color: #FF8300;
+  color: #d39148;
 }
 #add:hover {
   font-weight: 700;
 }
 .addh5{
-  color: #FF8300;
+  color: #d39148;
 }
 .addh5 p{
   color: rgb(107, 106, 106);
@@ -851,6 +859,11 @@ input {
  font-weight: 600;
 }
 
+.active {
+  color: #e68414;
+  border-bottom: 2px solid white;
+}
+
 .contactFlex {
   justify-content: center;
   gap: 200px;
@@ -858,7 +871,7 @@ input {
 }
 
 .phone {
-  color: #FF8300;
+  color: #d39148;
   font-weight: 700;
   font-size: 17px;
   font-size: 18px;
@@ -891,7 +904,7 @@ input {
   padding: 10px;
   font-size: 16px;
   color: white;
-  background-color: #FF8300;
+  background-color: #d39148;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -899,7 +912,7 @@ input {
 
 .contactForm button:hover {
   background-color: white;
-  color: #FF8300;
+  color: #d39148;
 }
 
 .contactForm p {
@@ -1066,12 +1079,12 @@ input {
   .navbar-nav {
     background-color: rgba(255, 255, 255, 0.822);
     gap: 10px;
-    color: #FF8300;
+    color: #d39148;
     padding: 20px;
   }
 
   .nav-item .nav-link {
-    color: #FF8300;
+    color: #d39148;
   }
   
   .box {
@@ -1079,7 +1092,7 @@ input {
   }
 
   .nav-link a {
-    color: #FF8300;
+    color: #d39148;
   }
 
   .firstCaro img,.firstCarou img   {
@@ -1141,7 +1154,7 @@ bottom: 200px;
   padding: 70px 0;
 }
 .services h1 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .rooms {
@@ -1156,7 +1169,7 @@ bottom: 200px;
 }
 
 .featured h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .rooms p{
@@ -1184,7 +1197,9 @@ bottom: 200px;
 
 
 
-
+.abt h1 {
+  font-size: 45px;
+}
 
 
 
@@ -1199,6 +1214,10 @@ bottom: 200px;
 
 .guestBook {
   padding: 50px 5px;
+}
+
+.guestBook h1 {
+  font-size: 25px;
 }
 
 .customDiv {

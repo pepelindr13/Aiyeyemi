@@ -22,8 +22,8 @@ const Contact = () => {
         </div>
       <div id="contactDiv" className="background-containerr shadow-sm px-5">
         <div className="text-center">
-          <p>CHAT WITH US</p>
-          <h1>GET IN TOUCH</h1>
+          <p className="fw-bold">CHAT WITH US</p>
+          <h1 className="fw-bolder">GET IN TOUCH!</h1>
           <button onClick={nav} className="bookBtn mt-2">
             BOOK ROOM
           </button>

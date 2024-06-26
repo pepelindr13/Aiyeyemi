@@ -1,0 +1,85 @@
+/* General navbar styles */
+.navbar {
+    color: white;
+  }
+  
+  .navbar-container {
+    padding: 0 50px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Hamburger button styles */
+  #hamburger {
+    display: none; 
+    font-size: 2.2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Navigation menu styles */
+  .nav-menu {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-item {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 768px) {
+    #hamburger {
+      display: block;
+    }
+  
+    .navbar-container {
+        padding: 0 10px;
+      }
+
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .nav-menu.active {
+      display: flex;
+      width: 100%;
+      position: absolute;
+      background: #333333f6;
+      left: 0;
+      top: 70px;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      height: max-content;
+      padding: 20px;
+      border: none;
+    }
+  
+    .nav-menu.active .nav-item {
+      padding: 10px 0;
+    }
+  
+    .nav-menu.active .nav-item:hover {
+    }
+  
+    .nav-item {
+      text-align: center;
+      width: 100%;
+      padding: 10px 0;
+      /* border-top: 1px solid #444; */
+    }
+  }
+  

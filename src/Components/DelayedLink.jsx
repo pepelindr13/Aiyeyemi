@@ -1,9 +1,8 @@
-// DelayedLink.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import FullScreenLoader from './FullScreenLoader';
+import Loader from './FullScreenLoader';
 
-const DelayedLink = ({ to, delay = 5000, children }) => {
+const DelayedLink = ({ to, delay = 3000, children, setActiveLink, isActive }) => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
@@ -13,13 +12,21 @@ const DelayedLink = ({ to, delay = 5000, children }) => {
 
     setTimeout(() => {
       setLoading(false);
+      setActiveLink(to); // Set the active link
       navigate(to);
     }, delay);
   };
 
   return (
     <>
-      {loading ? <FullScreenLoader /> : <a className='text-decoration-none' href={to} onClick={handleClick}>{children}</a>}
+      {loading && <Loader />}
+      <a
+        className={`text-decoration-none ${isActive ? 'nav-item-active' : 'nav-item'}`}
+        href={to}
+        onClick={handleClick}
+      >
+        {children}
+      </a>
     </>
   );
 };

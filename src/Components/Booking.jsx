@@ -7,7 +7,7 @@ import Navbar from "./Navbar";
 import Tt1 from "../assets/Images/30k1.jpg";
 import Tt2 from "../assets/Images/30k2.jpg";
 import Tt3 from "../assets/Images/30k3.jpg";
-// import Tf1 from "../assets/Images/25K1.jpg";
+import Tf1 from "../assets/Images/25K1.jpg";
 import Tf2 from "../assets/Images/25k2.jpg";
 import Tf3 from "../assets/Images/25k3.jpg";
 import r3 from "../assets/Images/153.jpg";
@@ -104,7 +104,7 @@ const Booking = () => {
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
                 <h1 style={{ fontSize: "50px" }}>Our rooms!</h1>
                 <p>HOTEL & RESORT!</p>
@@ -117,7 +117,7 @@ const Booking = () => {
               <img src={Room2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
                 <h1 style={{ fontSize: "50px" }}>Comfy & Luxurious Rooms</h1>
                 <p>YOUR ROOM YOUR STAY!</p>
@@ -130,7 +130,7 @@ const Booking = () => {
               <img src={Room3} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
-                className="carousel-caption animate__animated animate__slideInUp fade-in"
+                className="carousel-caption animate__animated animate__slideInUp bounce"
               >
                 <h1 style={{ fontSize: "50px" }}>Enjoy every second.</h1>
                 <p>ENJOY WITH US!</p>
@@ -235,7 +235,7 @@ const Booking = () => {
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src={Tf2} class="d-block w-100" alt={Room1} />
+                <img src={Tf1} class="d-block w-100" alt={Room1} />
               </div>
               <div class="carousel-item">
                 <img src={Tf2} class="d-block w-100" alt={Room1} />

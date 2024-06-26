@@ -329,11 +329,10 @@ const Hero = () => {
         <h1
           style={{
             textAlign: "center",
-            fontWeight: "bolder",
           }}
         >
-          <h1 className="fs-1 ro fw-bold">Guestbook</h1>
-          WHAT O<span id="rse">UR CUSTOMER</span>S SAY
+          <h1 className="f2-2 ro fw-bolder">Guestbook</h1>
+          What o<span id="rse">ur customer</span>s say
         </h1>
         <div id="carouselExampleIndicators" class="carousel slide paddedCaro">
           <div class="carousel-indicators">
