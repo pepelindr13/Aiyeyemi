@@ -340,8 +340,8 @@ padding-top: 100px;
 }
 
 .services h1 {
-  font-size: 50px;
-  font-weight: 500;
+  font-size: 40px;
+  font-weight: 400;
 }
 
 .serviceDiv div {
@@ -438,7 +438,7 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 
 .featured h1, .abt h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 100;
 }
 .rooms h2 {
@@ -1070,6 +1070,10 @@ input {
 
   .nav-link a {
     color: #e68414;
+  }
+
+  .firstCarou, .firstCaro {
+    height: 100vh;
   }
 
   .firstCaro img,.firstCarou img   {

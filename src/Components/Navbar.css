@@ -70,5 +70,10 @@
       padding: 10px 0;
       /* border-top: 1px solid #444; */
     }
+
+    footer .nav-item {
+        text-align: start;
+      }
+      
   }
   

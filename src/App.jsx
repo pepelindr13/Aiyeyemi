@@ -7,10 +7,12 @@ import Book from './Components/Book'
 import About from './Components/About'
 import Contact from './Components/Contact'
 import Topbtn from './Components/Topbtn'
+import ScrollToTop from './Components/ScrollToTop'
 function App() {
 
   return (
     <>
+    <ScrollToTop/>
     <Routes>
       <Route path='/' element={<Hero/>}/>
       <Route path='/rooms' element={<Booking/>}/>
