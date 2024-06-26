@@ -27,6 +27,9 @@ button {
   position: relative;
   height: 80vh;
 }
+.firstCarou, .firstCaro {
+  height: 80vh;
+}
 
 .firstCarou img {
   height: 80vh;
@@ -62,34 +65,19 @@ position: relative;
 }
 
 .nav-item:hover {
-  color: #d39148;
+  color: #e68414;
 }
 
 .nav-link {
   color: white;
 }
 
-.nav-link:hover {
-  color: white;
-  border-bottom: 2px solid white;
-  transition: .5s ease-in-out;
-}
 .contain{
   position: relative;
 }
 
 .navbar-nav {
   gap: 30px;
-}
-
-.hamburger {
-  display: block;
-  border: 1px solid green;
-  width: 30px;
-  height: 20px;
-  position: absolute;
-  top: 10px;
-  right: 10px;
 }
 
 
@@ -102,34 +90,33 @@ position: relative;
   
 }
 
-.navbar-brand {
-  line-height: 19px;
-}
-
-.navbar-brand a{
-  color: rgba(255, 255, 255, 0.884);
-  text-decoration: none;
-}
 
 #navLink{
-  color:   #d39148 ;
+  color:   #e68414 ;
 }
 
 
 
-.nav-item {
+ .nav-item {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: bolder;
   width: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  transition: color 0.3s;
 }
 
-#navLink:hover{
+footer .nav-item {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  width: 100%;
+  text-decoration: none;
   color: white;
-}
-
-.nav-item .nav-link {
-  color: white;
+  padding: 0;
+  transition: color 0.3s;
 }
 
 
@@ -199,15 +186,15 @@ margin-bottom: 40px;
 
 .bookBtn {
   background-color: transparent;
-  color: #d39148 ;
-  border: 1px solid #d39148 ;
+  color: #e68414 ;
+  border: 1px solid #e68414 ;
   padding: 13px 13px 10px 13px;
   border-radius: 4px;
   font-weight: 600;
 }
 
 .bookBtn:hover {
-  background-color: #d39148 ;
+  background-color: #e68414 ;
   color: white;
 }
 
@@ -239,13 +226,13 @@ align-items: center;
 .about h1 {
   font-size: 30px;
   font-weight: 700;
-  color: #d39148;
+  color: #e68414;
 }
 
 .about h6 {
   font-size: 14px;
   font-weight: 700;
-  color: #d39148;
+  color: #e68414;
 }
 
 .aboutSec{
@@ -262,16 +249,16 @@ align-items: center;
 }
 
 .bookBtn2 {
-  background-color: #d39148;
+  background-color: #e68414;
   color: white;
-  border: 1px solid #d39148;
+  border: 1px solid #e68414;
   padding: 13px 13px 10px 13px;
   border-radius: 4px;
   
 }
 
 .aboutSec:hover {
-  background-color: #d39148;
+  background-color: #e68414;
   transition: 1s ease-in-out;
 }
 
@@ -309,7 +296,7 @@ align-items: center;
 
 
 .about h6 {
-  color: #d39148;
+  color: #e68414;
   font-weight: 700;
   font-size: 17px;
 }
@@ -321,7 +308,7 @@ padding-top: 100px;
 }
 
 .services h4, .services h6, .featured h6 {
-  color: #d39148;
+  color: #e68414;
 }
 
 .services h6, .featured h6 {
@@ -432,7 +419,7 @@ padding-top: 100px;
   position: relative; /* Ensure the content is positioned above the background */
   z-index: 1;
   font-weight: 900;
-  color: #d39148; 
+  color: #e68414; 
   margin-bottom: 20px;
 }
 
@@ -459,8 +446,8 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 
 .rooms button {
-  background:#d39148;
-  border: 1px solid #d39148;
+  background:#e68414;
+  border: 1px solid #e68414;
   font-size: 12px;
   color: white;
   margin-left: 20px;
@@ -468,13 +455,13 @@ background-color: rgba(241, 241, 241, 0.692);
 }
 #spanBtn:hover{
   background-color: white;
-  color: #d39148;
+  color: #e68414;
   transition: .5s ease-in-out;
   border: none;
 }
 
 .rooms span {
-  color: #d39148;
+  color: #e68414;
   font-weight: 700;
   font-size: 18px;
   font-family: 'Playfair Display', serif;
@@ -535,7 +522,7 @@ background-color: rgba(241, 241, 241, 0.692);
   padding: 10px 0;
   background: transparent;
   border: none;
-  border-bottom:1px solid  #d39148;
+  border-bottom:1px solid  #e68414;
   color: white;
   min-width: 100%;
   font-size: 17px;
@@ -545,7 +532,7 @@ background-color: rgba(241, 241, 241, 0.692);
 
 
 .RBooking label {
- color: #d39148;
+ color: #e68414;
  font-weight: 700;
  margin-bottom: 5px;
 }
@@ -553,7 +540,7 @@ background-color: rgba(241, 241, 241, 0.692);
 
 .RBooking option {
   width: 100%;
-  background-color: #d39148;
+  background-color: #e68414;
   font-size: 17px;
 outline: none;
 }
@@ -564,7 +551,7 @@ outline: none;
   width: 100%;
   background: none;
   border: none;
-  border-bottom:1px solid #d39148;
+  border-bottom:1px solid #e68414;
   color: white;
   font-size: 17px;
   outline: none;
@@ -578,14 +565,14 @@ outline: none;
 .bootBtn {
   width: 50%;
   background-color: transparent;
-  color: #d39148;
-  border: 1px solid #d39148;
+  color: #e68414;
+  border: 1px solid #e68414;
   padding: 10px 0;
 }
 
 .bootBtn:hover {
   color: white;
-  background-color: #d39148;
+  background-color: #e68414;
 }
 
 .roomContainer {
@@ -641,7 +628,7 @@ color: white;
 }
 
 .roomies h1 {
-  color: #d39148;
+  color: #e68414;
 }
 
 .roomimg {
@@ -651,7 +638,7 @@ color: white;
 }
 
 .roomBtn {
-  background-color: #d39148;
+  background-color: #e68414;
   color: white;
   font-size: 17px;
   font-weight: 600;
@@ -661,12 +648,12 @@ color: white;
 }
 
 .roomBtn:hover{
-  color: #d39148;
+  color: #e68414;
   background-color: black;
 }
 
 .roomContainer h6 {
-  color: #d39148;
+  color: #e68414;
 }
 
 .roomContainer p {
@@ -681,7 +668,7 @@ color: white;
 }
 
 .carousel-control-prev-icon:hover,.carousel-control-next-icon:hover {
-  background-color: #d39148;
+  background-color: #e68414;
 }
 
 .guestBook {
@@ -699,7 +686,7 @@ color: white;
 }
 
 .guestBook h5{
-  color: #d39148;
+  color: #e68414;
   font-weight: 700;
   margin: 15px 0;
 }
@@ -730,7 +717,7 @@ color: white;
 }
 
 .bookDiv h2 {
-  color: #d39148;
+  color: #e68414;
 }
 
 .bookDiv p {
@@ -755,7 +742,7 @@ input {
 /* .RbookDiv textarea{
   width: 100%;
   padding: 10px;
-  border: 1px solid #d39148;
+  border: 1px solid #e68414;
   border-radius: 5px;
   margin: 10px 0;
 } */
@@ -788,7 +775,7 @@ input {
 }
 
 .aboutUs h6, .aboutUs span,.gallery h6 {
-  color: #d39148;
+  color: #e68414;
   font-weight: 700;
 }
 
@@ -828,7 +815,7 @@ input {
   right: 20px;
   padding: 10px 20px;
   font-size: 18px;
-  background-color: #d39148; /* Change this to your preferred color */
+  background-color: #e68414; /* Change this to your preferred color */
   color: white;
   border: none;
   border-radius: 100%;
@@ -840,13 +827,13 @@ input {
 
 #scrollToTopBtn:hover {
   background-color: black; /* Change this to your preferred hover color */
-  color: #d39148;
+  color: #e68414;
 }
 #add:hover {
   font-weight: 700;
 }
 .addh5{
-  color: #d39148;
+  color: #e68414;
 }
 .addh5 p{
   color: rgb(107, 106, 106);
@@ -862,6 +849,7 @@ input {
 .active {
   color: #e68414;
   border-bottom: 2px solid white;
+  padding-bottom: 10px;
 }
 
 .contactFlex {
@@ -871,7 +859,7 @@ input {
 }
 
 .phone {
-  color: #d39148;
+  color: #e68414;
   font-weight: 700;
   font-size: 17px;
   font-size: 18px;
@@ -904,7 +892,7 @@ input {
   padding: 10px;
   font-size: 16px;
   color: white;
-  background-color: #d39148;
+  background-color: #e68414;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -912,7 +900,7 @@ input {
 
 .contactForm button:hover {
   background-color: white;
-  color: #d39148;
+  color: #e68414;
 }
 
 .contactForm p {
@@ -1076,23 +1064,12 @@ input {
     color: white;
   }
 
-  .navbar-nav {
-    background-color: rgba(255, 255, 255, 0.822);
-    gap: 10px;
-    color: #d39148;
-    padding: 20px;
-  }
-
-  .nav-item .nav-link {
-    color: #d39148;
-  }
-  
   .box {
     height: 100vh;
   }
 
   .nav-link a {
-    color: #d39148;
+    color: #e68414;
   }
 
   .firstCaro img,.firstCarou img   {

@@ -1,7 +1,5 @@
 /* General navbar styles */
-.navbar {
-    color: white;
-  }
+
   
   .navbar-container {
     padding: 0 50px;
@@ -28,15 +26,6 @@
     display: flex;
     gap: 15px;
   }
-  
-  .nav-item {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    padding: 5px 10px;
-    transition: color 0.3s;
-  }
-  
   /* Responsive styles for small screens */
   @media (max-width: 768px) {
     #hamburger {
