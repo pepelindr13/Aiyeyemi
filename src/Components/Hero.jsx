@@ -62,7 +62,7 @@ const Hero = () => {
           data-bs-ride="carousel"
         >
           <div className="firstCarou carousel-inner">
-            <div className="carousel-item active" data-bs-interval="2500">
+            <div className="carousel-item active" data-bs-interval="4000">
               <img src={Home1} className="d-block w-100" alt="..." />
               <div
                 id="cap2"
@@ -75,7 +75,7 @@ const Hero = () => {
                 <button onClick={nav} className="bookBtn">Book Now </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="2500">
+            <div className="carousel-item" data-bs-interval="4000">
               <img src={About2} className="d-block w-100" alt="..." />
               <div
                 id="cap"
@@ -91,7 +91,7 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className="carousel-item" data-bs-interval="2500">
+            <div className="carousel-item" data-bs-interval="4000">
               <img src={Room1} className="d-block w-100" alt="..." />
               <div
                 id="cap3"
@@ -119,7 +119,7 @@ const Hero = () => {
         <h1 className="mt-4">
           Feat<span id="rse">ured Roo</span>ms
         </h1>
-        <div className="rooms">
+        <div className="rooms w-100">
           <div className="roomFlex shadow-sm">
             <div className="p-5 roomcap">
               <h2>Vip Suite</h2>

@@ -12,10 +12,10 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container d-flex justify-content-between align-items-center w-100">
-        <Link to="/" className="navbar-brand fw-bolder text-light text-center">
-          <div>AIYEYEMI</div>
-          <div>PALACE</div>
-          <div>HOTEL</div>
+        <Link to="/"  className="navbar-brand fw-bolder text-light text-center">
+          <h4 className="fw-bolder">AIYEYEMI</h4>
+          <h4 className="fw-bolder">PALACE</h4>
+          <h4 className="fw-bolder">HOTEL</h4>
         </Link>
         <button id="hamburger" onClick={toggleNavbar}>
           &#9776;

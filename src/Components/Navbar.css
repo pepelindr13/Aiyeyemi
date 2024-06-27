@@ -6,10 +6,15 @@
   }
   
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
     text-decoration: none;
     color: white;
-    line-height: 25px;
+    line-height: -10px;
+  }
+
+  .navbar-brand h4{
+    line-height: 12px;
+
   }
   
   /* Hamburger button styles */
