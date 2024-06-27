@@ -195,7 +195,7 @@ const Book = () => {
           required
         />
       </div>
-          <button className="bookBtn py-3 w-100 mt-4" type="submit">
+          <button  className="bookBtn py-3 w-100 mt-4" type="submit">
             Book Now
           </button>
         </form>

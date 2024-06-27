@@ -9,13 +9,18 @@ const Footer = () => {
           <h5 className="fs-3 fw-bold">Address</h5>
           <ul className="nav flex-column">
             <li className="nav-item mb-2">
-              <a href="#" className="nav-link my-2 p-0 text-light">
+              <a href="https://maps.app.goo.gl/qqNnjv3ecNKeyZZu5" className="nav-link my-2 p-0 text-light">
               Find us on Google Maps<p className='text-light'>11 Paulson Odu Avenue, Omoologede Estate, Ogolonto, Ikorodu, Lagos</p>
               </a>
             </li>
             <li className="nav-item mb-2">
               <a href="#" className="nav-link my-2 p-0 text-light">
               Find us on Google Maps<p className='text-light'>No 10 shobowale alayo akasolori estate itokin road ikorodu</p>
+              </a>
+            </li>
+            <li className="nav-item mb-2">
+              <a href="https://maps.app.goo.gl/qTXRC4aiEgKah3ss8?g_st=com.google.maps.preview.copy" className="nav-link my-2 p-0 text-light">
+              Find us on Google Maps<p className='text-light'>Ajasse Ipo 251102, Kwara</p>
               </a>
             </li>
           </ul>

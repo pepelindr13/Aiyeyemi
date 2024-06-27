@@ -15,6 +15,7 @@ const Navbar = () => {
         <Link to="/" className="navbar-brand fw-bolder text-light text-center">
           <div>AIYEYEMI</div>
           <div>PALACE</div>
+          <div>HOTEL</div>
         </Link>
         <button id="hamburger" onClick={toggleNavbar}>
           &#9776;

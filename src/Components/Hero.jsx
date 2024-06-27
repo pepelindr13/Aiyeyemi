@@ -168,6 +168,11 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        <div  className="text-center mt-5">
+        <Link to={'/rooms'}>
+          <button className="bookBtn">MORE ROOMS</button>
+        </Link>
+        </div>
       </div>
       <div className="bookUs">
         <div className=" bookusBkg"></div>

@@ -52,6 +52,9 @@ const Contact = () => {
                 </p>
               </a>
             </p>
+            <a id="add" href="https://maps.app.goo.gl/qTXRC4aiEgKah3ss8?g_st=com.google.maps.preview.copy" className="nav-link fw-bold my-2 p-0">
+              Find us on Google Maps<p>Ajasse Ipo 251102, Kwara</p>
+              </a>
             <p>
               <a
                 id="add"
