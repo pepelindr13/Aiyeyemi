@@ -20,7 +20,7 @@ const Footer = () => {
             </li>
             <li className="nav-item mb-2">
               <a href="https://maps.app.goo.gl/qTXRC4aiEgKah3ss8?g_st=com.google.maps.preview.copy" className="nav-link my-2 p-0 text-light">
-              Find us on Google Maps<p className='text-light'>Ajasse Ipo 251102, Kwara</p>
+              Find us on Google Maps<p className='text-light'>Ilorin Road, Ajasse Ipo 251102, Kwara</p>
               </a>
             </li>
           </ul>
